@@ -1,0 +1,16 @@
+---
+layout: post
+title: Simple Directions
+date: '2011-08-23T08:09:00.000-07:00'
+author: Shreerang Patwardhan
+tags:
+- google maps api v3 directions example
+- google maps api v3 example
+- Google Maps API v3
+- google maps api v3 india
+modified_time: '2012-04-30T01:37:47.026-07:00'
+blogger_id: tag:blogger.com,1999:blog-6009621700449257538.post-6018744353252662644
+blogger_orig_url: http://shreerangpatwardhan.blogspot.com/2011/08/simple-directions.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on"><div class="MsoNormal">&nbsp;&nbsp;&nbsp; After taking an unintended long break after the 100<sup>th</sup>  post, I am back with more examples and several more GIS news. Today, we  will take a look at a simple example showcasing the use of the Google’s  Directions Services. Using  the Google’s Direction service, we can calculate the distance between  two points, show the path between these two points, calculate the  average time taken to traverse this distance and we can also enforce  several constraints on this path.</div><div class="MsoNormal"><br /></div><div class="MsoNormal">&nbsp;&nbsp;&nbsp; The Google Directions API is a service that  calculates the directions between locations using an HTTP request. You  may pass either an address (string) or a latitude/longitude coordinate  as the origin and destination. If you pass an address  as a string, the Directions service geocodes the string and converts it  to a latitude-longitude coordinate to calculate directions. The origin  and destination are two mandatory parameters for a directions request,  whereas several other optional parameters  like mode of travel, waypoints, avoid tolls, avoid highways, etc. are  also used. We will be having a look at each of these parameters in  subsequent examples.</div><div class="MsoNormal"><br /></div><div class="MsoNormal">&nbsp;&nbsp;&nbsp; Today, we will have a look at a simple piece of  code which will show a path between two pre-defined locations Pune and  Mumbai in India (hard-coded example) using the directions services. Let  us have a look at the code directly. I have commented  the code where ever necessary.</div><div class="MsoNormal"><br /></div><iframe allowfullscreen="allowfullscreen" frameborder="0" src="http://jsfiddle.net/Shreerang/MRHQ4/embedded/" style="height: 300px; width: 100%;"></iframe><br /><br /><div class="MsoNormal">&nbsp;&nbsp;&nbsp; The output of the above code will appear as seen in  the result section above. Two labeled markers will appear at the origin and  destination address with a purple polyline depicting the route between  the two locations. In later examples, we will see several more complex  examples using the Directions Service.<br /><br />&nbsp;&nbsp;&nbsp; If you have any queries/ doubts  regarding today’s code, please leave a comment! Hope you find this  example helpful!</div></div>
