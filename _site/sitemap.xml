@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	
+	  <url>
+		<loc>http://localhost:4000/es6-101-class/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/es6-101-map/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/es6-101-set/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/es6-101-forof/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/es6-101-destructuring/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/es6-101-default-parameters/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/diwali-wishes/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/es6-rest-operator/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/es6-template-literals/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/es6-101-spread-operator/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/es6-101-lexical-declarations-const/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/es6-101-lexical-declarations-let/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/es6-fat-arrow-functions/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/js-for-loop-code-performance/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/jquery-mobiles-next-big-step/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/happy-new-year-2017/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/looks-do-matter/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/stay-selfish-stay-accessible/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/better-late-than-never/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/finally-question-is-answered/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/mastering-jquery-mobile/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/annual-retrospective-welcome-to-new/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/merry-christmas/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/crisis-tool-for-jammu-kashmir-floods/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/the-bitter-divorce-of-psd-and-html/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/setting-up-sandbox-for-google-polymer/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/celebrating-200k-visitors/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/material-ui-google-polymer-web/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/responsive-websites-why-bother/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/list-item-image-marker-cross-browser/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/css-counter-increment-and-counter-reset/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/css-text-and-font/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/difference-between-word-break-break-all/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/css-inheritance-sequence/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/mobile-web-application-remote-debugging/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/exploring-jquery-mobile-140/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/new-year-2014-wishes/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/jquery-mobile-131-presentation/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/tribute-to-sachin-tendulkar/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/diwali-wishes-2013/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/jquery-mobile-toolbars-header-and-footer/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/another-feather-in-cap/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/sass-nesting-css/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/sass-syntactically-awesome-stylesheets/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/jquery-mobile-buttons/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/jquery-mobile-form-select-menus-part-ii/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/jquery-mobile-form-select-menus-part-i/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/jquery-mobile-form-checkboxes/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/jquery-mobile-form-radio-buttons/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/jquery-mobile-form-flip-toggle-switch/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/jquery-mobile-form-slider-control/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/jquery-mobile-customizing-search-box/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/jquery-mobile-form-search-input/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/jquery-mobile-form-text-inputs/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/default-keyboards-for-html5-input-types/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/jquery-mobile-introduction-to-form/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/jquery-mobile-listview-enhancements-and/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/jquery-mobile-accordions-collapsible/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/jquery-mobile-listview-with-custom-icon/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/jquery-mobile-theming-listview-icons/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/jquery-mobile-listview-with-thumbnail/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/jquery-mobile-listview-with-icon-images/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/jquery-mobile-text-formatted-listview/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/jquery-mobile-listview-with-count/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/jquery-mobile-filtering-listview/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/jquery-mobile-list-dividers/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/captain-kidds-treasure-unveiled-on/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/jquery-mobile-split-button-listview/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/jquery-mobile-readonly-listview/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/happy-holi/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/side-scrolling-web-pages-issue-with/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/jquery-mobile-numbered-listview/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/jquery-mobile-nested-listview/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/jquery-mobile-customizing-listview/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/jquery-mobile-listview-with-data-inset/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/jquery-mobile-basic-listview/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/the-mystery-of-vanishing-island/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/ground-truth-how-google-builds-maps/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/the-jquery-mobile-multiple-titles/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/jquery-mobile-multi-page-structure/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/new-year-wishes/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/the-mobile-meta-tag/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/jquery-mobile-page-structure/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/jquery-mobile-features/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/jquery-mobile-touch-optimized-jquery/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/google-maps-santa-tracker/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/where-is-google-street-view/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/where-does-google-have-live-traffic/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/diwali-greetings/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/google-street-view-image-api/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/spatial-unlimited-turns-2/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/google-geoeye-insurance-solution-set/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/the-street-view-army/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/rail-radar-map-your-train-live/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/panoramio-hangout-game/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/google-maps-political-wars/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/facebook-social-plugins/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/facebook-fastest-growing-social-network/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/50000-hits-and-live-examples/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/titanic-mapping-100th-aniversary/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/giant-called-google/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/google-weather-layer-simple-example/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/weather-layer-now-available-with-google/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/googles-latest-april-fools-prank/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/code-samples-indexed/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/why-this-difference/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/you-cant-google-in-google/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/girlfriend-to-fiancee/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/google-public-alerts/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/ufo-or-what/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/hilarious-google-maps/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/new-google-privacy-policy/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/coming-soona-game-based-on-google-maps/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/new-year-wishes/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/gis-news-from-around-country/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/memories-for-future/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/first-google-enterprise-geospatial/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/quake-risk-assessment-application/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/geofencing/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/school-mapping/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/speak-to-your-google-map/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/get-directions-between-different-states/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/sun-moon-now-on-google-maps/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/simple-directions/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/100th-post/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/spherical-cap/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/blank-web-page-seems-so-boring-and-dull/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/playing-with-map-controls/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/four-maps-on-same-page-playing-with/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/guest-post-gis-technology-future/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/pan-to-states-using-geocoding/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/geocoding-region-biasing/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/grand-gis-project/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/google-demo-site-is-using-google-maps/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/punjab-cities-to-implement-gis/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/curious-scenes-in-google-map-satellite/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/different-map-for-different-browser/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/google-map-loading/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/where-does-google-get-its-live-traffic/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/google-map-within-image/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/two-maps-on-same-page-side-by-side/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/power-cuts-in-india-lets-see-how-how-it/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/indian-national-gis-organization-to-be/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/where-on-google-map-was-osama-bin-laden/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/coral-reef-mapped/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/student-dynamic-map-competition/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/esris-storytelling-with-maps/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/is-google-cheating/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/better-late-than-never/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/map-collages/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/loading-over-https/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/reverse-geocoding/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/mapping-festival/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/mumbais-public-trasportation/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/geocoding/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/panoramia-tag-based-search/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/panoramio-layer/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/bicycling-layer/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/google-maps-real-time-traffic-layer/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/now-mosquitoes-will-be-mapped/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/web-based-gis-for-polling-booths-in/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/georss-layer/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/blue-census-water-census/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/ahmedabad-to-have-tree-census/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/delhi-metros-airport-express-corridor/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/ssa-to-take-up-gis-mapping-of-schools/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/map-your-valentine/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/fusion-table-heat-map-layer/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/fusion-table-layer/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/what-do-you-do-with-google-maps-api/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/kml-layer-example/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/follow-your-world/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/overlays-complex-example/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/removing-overlays/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/india-celebrates-62nd-republic-day/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/mumbai-metro-to-implement-gis/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/geodesic-draggable-onclick-polygon/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/onclick-polygon/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/polygon/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/satellite-to-keep-eye-on-chambal-palpur/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/onclick-geodesic-polyline/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/geodesic-polyline/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/bihar-dials-mobile-tech-to-track-road/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/orissa-cheif-minister-launches-odisha/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/india-archeologists-discover/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/cops-using-new-device-to-track-down/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/concluding-gis-india-news-of-2010/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/integrated-gps-cameras/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/gis-technology-to-identify-all/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/gis-viewed-as-strategic-economic/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/merry-christmas-everyone/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/on-click-polyline/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/total-lunar-eclipse/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/fun-with-gps/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/gps-drawing/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/geodashing/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/custom-online-cards-from-google-maps/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/polyline/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/custom-markers/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/indias-digital-environmental-atlas/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/dancing-bubble/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/retriving-co-ordinates/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/assessment-of-mgnrega-using-gis/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/drive-along-cool-coding/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/gis-as-vocational-elective-from-june/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/national-symposium-on-remote-sensing/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/what-is-gps/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/fedora-geo-spin/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/what-is-gis/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/tripura-to-use-satellites-to-track/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/form-info-window/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/static-info-window-only/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/jugnu-indias-first-nano-satellite/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/playing-with-markers-and-info-window/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/only-information-bubbles/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/code-for-fun/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/marker-with-information-window/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/gis-india-news-titbits/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/multiple-markers/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/celabrate-gis-day/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/simple-marker-example/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/geocaching-worlds-largest-treasure/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/simple-map-using-google-maps-api-v3/</loc>
+	  </url>
+	
+	  <url>
+		<loc>http://localhost:4000/my-first-blog/</loc>
+	  </url>
+	
+</urlset>
