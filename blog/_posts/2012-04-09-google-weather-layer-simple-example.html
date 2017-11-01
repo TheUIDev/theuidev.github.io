@@ -1,0 +1,18 @@
+---
+layout: post
+title: Google Weather Layer - Simple Example
+date: '2012-04-09T09:36:00.000-07:00'
+author: Shreerang Patwardhan
+tags:
+- weather details on map
+- google maps api v3 weather layer
+- weather layer simple example
+- weather layer using google maps api
+- google weather layer
+- weather now available on google maps api
+modified_time: '2012-07-16T22:57:03.928-07:00'
+blogger_id: tag:blogger.com,1999:blog-6009621700449257538.post-3770031309716318825
+blogger_orig_url: http://shreerangpatwardhan.blogspot.com/2012/04/google-weather-layer-simple-example.html
+---
+
+<div dir="ltr" style="text-align: left;" trbidi="on">&nbsp;&nbsp;&nbsp; As promised in the <a href="http://shreerangpatwardhan.blogspot.in/2012/04/weather-layer-now-available-with-google.html">last post</a>, we will be having a look at a     very simple example that will help us understand how we can use the     weather layer effectively in our Google Map applications using the     Google Maps API v3. The weather layer is basically a combination of     2 layers - the <b>Weather Layer</b> and the <b>Clouds Layer</b>. The weather     layers displays the weather icons and the temperature corresponding     that icon whereas the clouds layers displays the cloud cover across     the globe. We can choose to display or hide any of these layers. Let     us now dive into a very simple code that will help us understand the     basics of the Weather Layer library today.<br /><br /><br /><div style="text-align: center;"><iframe allowfullscreen="allowfullscreen" frameborder="0" src="http://jsfiddle.net/Shreerang/QNk4z/embedded/" style="height: 300px; width: 100%;"></iframe></div><br /><div bgcolor="#FFFFFF"></div><div bgcolor="#FFFFFF">&nbsp;&nbsp;&nbsp; The output of the above code will appear as seen in the result section above. You will find a map centered at "India" with both the weather     and cloud layers enabled!<br /><br />&nbsp;&nbsp;&nbsp; Most part of the above code is similar to most <a href="http://shreerangpatwardhan.blogspot.in/p/code-samples.html">other examples</a>    you will find on this site. There are just 2 new and important     things in this code. Look out for the variables "weather" and     "clouds". The variable weather basically holds a new object of the     type weatherLayer and has a property called temperatureUnits. The     value of this property can either be in degrees Celsius or     Fahrenheit. The clouds basically holds a new object of the type     cloudLayer. We can choose not to display either of these layers by     commenting out the "setMap(map)" lines from the above code.</div><div bgcolor="#FFFFFF" style="text-align: center;"><div class="separator" style="clear: both; text-align: center;"><a href="http://2.bp.blogspot.com/-SVUd0H5J_yY/T4MO7O8cxfI/AAAAAAAAArk/mJZavqCA4aI/s1600/New+Picture+%282%29.bmp" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"></a></div><div style="text-align: left;"><br /></div><div style="text-align: left;">&nbsp;&nbsp;&nbsp; Like rest of the examples seen <a href="http://shreerangpatwardhan.blogspot.in/p/code-samples.html">here</a>, this is another simple,     easy-to-understand example code using the Google Maps API v3. If you     have any queries regarding the code, please feel free to drop a     comment and I will be happy to help you with the code.</div></div></div>
