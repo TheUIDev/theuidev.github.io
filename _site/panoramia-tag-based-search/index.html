@@ -96,7 +96,15 @@
     
     
     
-      <li><a href="http://localhost:4000/series">Series</a></li>
+      <li><a href="http://localhost:4000/series">ES6 101 Series</a></li>
+    
+    
+    
+      <li><a href="http://localhost:4000/series">jQuery Mobile Series</a></li>
+    
+    
+    
+      <li><a href="http://localhost:4000/series">Google Maps Javascript API Series</a></li>
     
     
     
@@ -154,7 +162,7 @@
     <h3>Comments</h3>
     <div id="disqus_thread"></div>
 </section>
-<script type="text/javascript">
+<!-- <script type="text/javascript">
     var disqus_loaded = false;
 
     function load_disqus()
@@ -175,12 +183,27 @@
                 load_disqus()
         }
     };
+</script> -->
+<script>
+var disqus_config = function () {
+this.page.url = '/panoramia-tag-based-search/';  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = ''; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://https-theuidev-github-io.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
 </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
             <footer>
-    <p>Made with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> and <span class="love">❤</span> by <a href="https://willianjusten.com.br">Willian Justen</a></p>
+    <p>Brought to you with ❤ by <a href="https://theuidev.github.io">Shreerang Patwardhan</a></p>
 </footer>
 <script src="/assets/js/main.js"></script>
+
         </section>
     </body>
 </html>

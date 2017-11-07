@@ -1,8 +1,9 @@
 # Site settings
 title: The UI Dev
 description: Playing catch up with the latest in the field of UI
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://theuidev.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+baseurl: "" # the subpath of your site
+url: "https://theuidev.github.io" # the base hostname & protocol for your site
+comments: true
 
 # User settings
 username: The UI Dev
@@ -12,7 +13,7 @@ email: patwardhan.shreerang@gmail.com
 twitter_username: shreerangp
 github_username: Shreerang
 gplus_username: +ShreerangPatwardhan
-disqus_username: lorem_ipsum
+disqus_username: shreerangpatwardhan
 
 # Build settings
 markdown: kramdown
@@ -32,7 +33,11 @@ compress_html:
 links:
   - title: Home
     url: /
-  - title: Series
+  - title: ES6 101 Series
+    url: /series
+  - title: jQuery Mobile Series
+    url: /series
+  - title: Google Maps Javascript API Series
     url: /series
   - title: Tags
     url: /tags
