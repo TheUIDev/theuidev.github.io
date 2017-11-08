@@ -5,13 +5,13 @@
     <description>Playing catch up with the latest in the field of UI</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 07 Nov 2017 15:47:36 -0800</pubDate>
-    <lastBuildDate>Tue, 07 Nov 2017 15:47:36 -0800</lastBuildDate>
+    <pubDate>Wed, 08 Nov 2017 14:02:28 -0800</pubDate>
+    <lastBuildDate>Wed, 08 Nov 2017 14:02:28 -0800</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
         <title>ES6 101 - Class</title>
-        <description>&lt;html&gt;&lt;head&gt;&lt;/head&gt;&lt;body id=&quot;preview&quot;&gt;&lt;br /&gt;&lt;div class=&quot;separator&quot; style=&quot;clear: both; text-align: center;&quot;&gt;&lt;a href=&quot;https://2.bp.blogspot.com/-S34I00hdAvw/WeZPfWCyN0I/AAAAAAAAZ3U/iIFUuFiduxQQJacLwkVBsU6fTdPyCp7xQCPcBGAYYCw/s1600/es6.jpg&quot; imageanchor=&quot;1&quot; style=&quot;margin-left: 1em; margin-right: 1em;&quot;&gt;&lt;img border=&quot;0&quot; src=&quot;https://2.bp.blogspot.com/-S34I00hdAvw/WeZPfWCyN0I/AAAAAAAAZ3U/iIFUuFiduxQQJacLwkVBsU6fTdPyCp7xQCPcBGAYYCw/s400/es6.jpg&quot; width=&quot;400&quot; height=&quot;300&quot; data-original-width=&quot;638&quot; data-original-height=&quot;479&quot; /&gt;&lt;/a&gt;&lt;/div&gt;&lt;p&gt;After a short break, I am back with a new ES6 feature today and it is &lt;code&gt;class&lt;/code&gt;. Classes in ES6 are what prototype-based inheritance was in ES5. See how I am using past tense for ES5 😋 So more or else, &lt;code&gt;class&lt;/code&gt; provides some level of syntactical sugar-coating over the existing ES5 prototype-based syntax.&lt;/p&gt;&lt;p&gt;Let’s just dive into the syntax and we can cover the concepts as we break up the code. The full code snippet is at the very end...</description>
+        <description>&lt;p&gt;After a short break, I am back with a new ES6 feature today and it is &lt;code class=&quot;highlighter-rouge&quot;&gt;class&lt;/code&gt;. Classes in ES6 are what prototype-based inheritance was in ES5. See how I am using past tense for ES5 😋 So more or else, &lt;code class=&quot;highlighter-rouge&quot;&gt;class&lt;/code&gt; provides some level of syntactical sugar-coating over the existing ES5 prototype-based syntax.&lt;/p&gt; &lt;p&gt;Let’s just dive into the syntax and we can cover the concepts as we break up the code. The full code snippet is at the very end of this post, in case you wan to just jump there and read the comments and understand...</description>
         <pubDate>Thu, 26 Oct 2017 22:26:00 -0700</pubDate>
         <link>http://localhost:4000/es6-101-class/</link>
         <guid isPermaLink="true">http://localhost:4000/es6-101-class/</guid>

@@ -320,7 +320,7 @@ a.slideButton,
 }
 .dosearch {
     right: 10px;
-    background: #0558c6;
+    background: #25a186;
     border-radius: .188rem;
     padding: .125rem .188rem
 }
@@ -328,7 +328,7 @@ a.slideButton,
     cursor: pointer;
     padding: .313rem;
     border-radius: .188rem;
-    background: #0558c6;
+    background: #25a186;
     width: 2.5rem;
     height: 2.5rem;
     fill: #fff
@@ -877,8 +877,15 @@ body {
     text-decoration: underline
 }
 .post-item .content .description .post-dp {
-    width: 100%;
-    margin-bottom: 10px;
+  width: 50%;
+  margin: 0 auto 10px;
+  display: block;
+}
+@media only screen and (max-width: 37.5rem) {
+  .post-item .content .description .post-dp {
+      width: 100%;
+      margin-bottom: 10px;
+  }
 }
 .post-content {
     padding: 2.5rem 0;
@@ -1208,7 +1215,7 @@ pre {
     font-size: .875rem;
 */
     display: block;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     word-break: break-all;
     word-wrap: break-word;
     color: #333;
@@ -1217,8 +1224,9 @@ pre {
     border-radius: 4px;
     padding: .66001rem 9.5px 9.5px;
     line-height: 2rem;
-    background: -webkit-linear-gradient(top, #fff 0, #fff 0.75rem, #f5f7fa 0.75rem, #f5f7fa 2.75rem, #fff 2.75rem, #fff 4rem);
-    background: linear-gradient(to bottom, #fff 0, #fff 0.75rem, #f5f7fa 0.75rem, #f5f7fa 2.75rem, #fff 2.75rem, #fff 4rem);
+    /*background: -webkit-linear-gradient(top, #fff 0, #fff 0.75rem, #f5f7fa 0.75rem, #f5f7fa 2.75rem, #fff 2.75rem, #fff 4rem);
+    background: linear-gradient(to bottom, #fff 0, #fff 0.75rem, #f5f7fa 0.75rem, #f5f7fa 2.75rem, #fff 2.75rem, #fff 4rem);*/
+    background: #222;
     background-size: 100% 4rem;
     border-color: #D3DAEA;
     max-width: 50rem;
@@ -1354,8 +1362,8 @@ pre span {
 .tex .hljs-formula {
     background: #073642
 }
-/*.highlight {
-    margin: 0;
+.highlight {
+    margin: 0 auto;
 }
 @media only screen and (min-width: 37.5rem) {
     .highlight {
@@ -1445,7 +1453,7 @@ pre span {
 .highlight .nf,
 .highlight .nx {
     color: #a6e22e
-}*/
+}
 .author {
     background: #f2f2f2;
     display: table;
