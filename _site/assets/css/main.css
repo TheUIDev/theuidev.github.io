@@ -14,7 +14,6 @@ figure,
 footer,
 header,
 hgroup,
-main,
 nav,
 section,
 summary {
@@ -742,12 +741,12 @@ body {
 .post-item:after {
     clear: both
 }
-@media only screen and (max-width: 62.5rem) {
+/*@media only screen and (max-width: 62.5rem) {
     .post-item {
         padding-left: 1.25rem;
         padding-right: 1.25rem
     }
-}
+}*/
 .post-item .datetime {
     *zoom: 1;
     //float: left;
@@ -819,7 +818,7 @@ body {
     float: left;
     clear: none;
     text-align: inherit;
-    width: 82.83333333333334%;
+    /*width: 82.83333333333334%;*/
     margin-left: 0%;
     margin-right: 3%;
 }
