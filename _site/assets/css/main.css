@@ -12,7 +12,7 @@ details,
 figcaption,
 figure,
 footer,
-header,
+/*header,*/
 hgroup,
 nav,
 section,
@@ -889,6 +889,10 @@ body {
 .post-content {
     padding: 2.5rem 0;
 }
+.post-ads {
+  text-align: center;
+  margin: 1rem 0;
+}
 .post-content img {
     max-width: 100%;
     margin: 1.875rem auto;
@@ -952,6 +956,11 @@ body {
 .post-content .tags:after,
 .post-content iframe:after {
     clear: both
+}
+.post-content .post-ad-tower {
+  position: absolute;
+  right: 5%;
+  top: 100%;
 }
 @media only screen and (min-width: 37.5rem) {
     .post-content p,

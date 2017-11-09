@@ -4,32 +4,47 @@ layout: default
 
 <main id="scroll" class="home" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
   {% for post in site.posts %}
-      <article role="article" class="post-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
-              <div class="content">
-                  <a href="{{ post.url | prepend: site.baseurl }}"><h2 class="post-title" itemprop="name">{{ post.title }}</h2></a>
-                  <a class="datetime" href="{{ post.url | prepend: site.baseurl }}">
-                      <meta itemprop="datePublished" content="{{post.date}}">
-                      <time datetime="{{ post.date | date_to_xmlschema }}">
-                          <span class="day">
-                              {{ post.date | date: "%d" }}
-                          </span>
-                          <span class="month-year">
-                              {{ post.date | date: "%B %Y" }}
-                          </span>
-                      </time>
-                  </a>
-                  <p class="description">
-                    <img src="{{ post.dp }}" class="post-dp" />
-                    {{ post.content | strip_html | truncatewords:40 }}
-                    <a href="{{ post.url | prepend: site.baseurl }}" class="link">Read more about {{post.title}}</a>
-                  </p>
+  <article role="article" class="post-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+    <div class="content">
+      <a href="{{ post.url | prepend: site.baseurl }}">
+        <h2 class="post-title" itemprop="name">{{ post.title }}</h2>
+      </a>
+      <a class="datetime" href="{{ post.url | prepend: site.baseurl }}">
+        <meta itemprop="datePublished" content="{{post.date}}">
+        <time datetime="{{ post.date | date_to_xmlschema }}">
+          <span class="day">
+            {{ post.date | date: "%d" }}
+          </span>
+          <span class="month-year">
+            {{ post.date | date: "%B %Y" }}
+          </span>
+        </time>
+      </a>
+      <p class="description">
+        <img src="{{ post.dp }}" class="post-dp" />
+        {{ post.content | strip_html | truncatewords:40 }}
+        <a href="{{ post.url | prepend: site.baseurl }}" class="link">Read more about {{post.title}}</a>
+      </p>
 
-                  <div class="tags">
-                      {% for tag in post.tags %}
-                          <a href="{{ site.baseurl }}/tags/#{{tag | slugify }}">{{ tag }}</a>
-                      {% endfor %}
-                  </div>
-              </div>
-      </article>
+      <div class="tags">
+        {% for tag in post.tags %}
+        <a href="{{ site.baseurl }}/tags/#{{tag | slugify }}">{{ tag }}</a>
+        {% endfor %}
+      </div>
+    </div>
+  </article>
+  <div class="post-ads">
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <ins class="adsbygoogle"
+      style="display:block"
+      data-ad-format="fluid"
+      data-ad-layout-key="-fg+5a+8r-ed-4j"
+      data-ad-client="ca-pub-5488580559712726"
+      data-ad-slot="3299852582">
+    </ins>
+    <script>
+      (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+  </div>
   {% endfor %}
 </main>
