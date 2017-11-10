@@ -8,20 +8,7 @@
       <article role="article" id="scroll" class="post-content" itemprop="articleBody">
         {{ content }}
       </article>
-      <div class="post-ads">
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <ins class="adsbygoogle"
-          style="display:block; text-align:center;"
-          data-ad-layout="in-article"
-          data-ad-format="fluid"
-          data-ad-client="ca-pub-5488580559712726"
-          data-ad-slot="7068186135">
-        </ins>
-        <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-      </div>
-
+      {% include post-ads.html %}
       {% include share.html %}
       {% include author.html %}
       {% include comments.html %}

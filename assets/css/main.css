@@ -1588,3 +1588,20 @@ footer a {
 footer a:hover {
     color: #900
 }
+ul.pager {
+  text-align: center;
+  list-style: none;
+  height: 38px;
+  line-height: 38px;
+  padding: 0;
+}
+ul.pager li {
+  display: inline;
+  border: 1px solid #25a186;
+  padding: 10px;
+  margin: 5px;
+}
+.pager li a {
+  text-decoration: none;
+  color: #25a186;
+}

@@ -139,18 +139,18 @@
         <div dir="ltr" style="text-align: left;" trbidi="on">&nbsp;&nbsp;&nbsp; While developing a Jquery mobile based application, I came across a issue that is observed only on the iOS 6 devices and Android 4.2.2 devices.<br /><br />&nbsp; &nbsp; <b>What is the issue?</b> <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Web pages are side scrolling on iOS6 and Android 4.2.2 devices.<br /><br />&nbsp;&nbsp;&nbsp; <b>How did I debug the issue?</b><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This bug was in our applications bug tracker for a long time and since I am the lone front-end developer the project that I am working on, my manger was pushing me to close this bug quickly. I had used the perfect <a href="http://shreerangpatwardhan.blogspot.in/2012/12/the-mobile-meta-tag.html" target="_blank">mobile meta tag</a> and still the web pages were side-scrolling. None of my divs had width that was going beyond the device widths and still there was this issue. That day, I decided to break down my HTML to pieces, and tested each piece on the dreadful iOS 6 device. I came down to a textbox that had some placeholder text in it and there it was, the issue was glaring me in my face.<br /><br />&nbsp;&nbsp;&nbsp; <b>Workaround</b><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I reduced the width of the textbox with the placeholder from 100% to slightly less and then the web pages stopped side-scrolling. I checked for the issue across the web, but did not find any reports on this issue. I have now reported this issue on Jquery mobile github and you can check out the issue report at <a href="http://goo.gl/KNFBX">http://goo.gl/KNFBX</a><br /><br />&nbsp;&nbsp;&nbsp; This issue is a bit weird and you will know why I say so. Take a look at  the following jsfiddle that I have created to demonstrate this issue.<br /><br /><iframe allowfullscreen="allowfullscreen" frameborder="0" height="300" src="http://jsfiddle.net/Shreerang/P5a3U/embedded/result,html,resources" width="100%"></iframe><br /><br />&nbsp;&nbsp;&nbsp; Now lets get down to the steps to reproduce this.<br />1. Click on <a href="http://goo.gl/IszAn">http://goo.gl/IszAn</a> keeping the device in portrait mode.<br />2. Once the page has completely loaded, rotate the device from portrait mode to landscape mode.<br />3. Rotate the device back to the portrait mode from the landscape mode.<br />4. Lo and behold your webpage is now side-scrolling.<br /><br />&nbsp;&nbsp;&nbsp; Hope another developer does not spend sleepless nights over this issue now and hope Jquery Mobile takes a note of this issue and fixes it in their next release.<br /><br /><b>UPDATE:</b><br />&nbsp; &nbsp; This issue has been fixed and is part of the new version of JQuery Mobile 1.4.0. You can currently check the status of this issue and it's fix inclusion status on <a href="https://github.com/jquery/jquery-mobile/issues?direction=desc&amp;milestone=20&amp;page=5&amp;sort=updated&amp;state=closed" target="_blank">Github</a>!<br /><br /></div>
       </article>
       <div class="post-ads">
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <ins class="adsbygoogle"
-          style="display:block; text-align:center;"
-          data-ad-layout="in-article"
-          data-ad-format="fluid"
-          data-ad-client="ca-pub-5488580559712726"
-          data-ad-slot="7068186135">
-        </ins>
-        <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-      </div>
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <ins class="adsbygoogle"
+    style="display:block; text-align:center;"
+    data-ad-layout="in-article"
+    data-ad-format="fluid"
+    data-ad-client="ca-pub-5488580559712726"
+    data-ad-slot="7068186135">
+  </ins>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</div>
 
       <section class="share">
   <h3>Share</h3>
