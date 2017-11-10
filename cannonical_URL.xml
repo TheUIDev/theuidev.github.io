@@ -1,0 +1,14 @@
+<b:if cond='data:blog.canonicalUrl == "http://shreerangpatwardhan.blogspot.com/2017/10/es6-101-class.html"'>
+  <link rel="canonical" href="https://theuidev.github.io/es6-101-class/"/>
+  <meta http-equiv="refresh" content="0; url=https://theuidev.github.io/es6-101-class/"/>
+<b:elseif cond='data:blog.canonicalUrl == "http://shreerangpatwardhan.blogspot.com/2017/10/es6-101-class.html"'>
+  <link rel="canonical" href="https://theuidev.github.io/es6-101-class/"/>
+  <meta http-equiv="refresh" content="0; url=https://theuidev.github.io/es6-101-class/"/>
+<b:elseif cond='data:blog.canonicalUrl == "https://shreerangpatwardhan.blogspot.com/2017/10/es6-101-map.html"'/>
+  <link rel="canonical" href="https://theuidev.github.io/es6-101-map/"/>
+  <meta http-equiv="refresh" content="0; url=https://theuidev.github.io/es6-101-map/"/>
+<b:elseif cond='data:blog.canonicalUrl == "https://shreerangpatwardhan.blogspot.com/2017/10/es6-101-set.html"'/>
+  <link rel="canonical" href="https://theuidev.github.io/es6-101-set/"/>
+  <meta http-equiv="refresh" content="0; url=https://theuidev.github.io/es6-101-set/"/>
+<b:else/>
+</b:if>
