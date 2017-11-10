@@ -105,15 +105,15 @@
         
       
         
-          <li><a href="http://localhost:4000/series">ES6 101 Series</a></li>
+          <li><a href="http://localhost:4000/series/es6-101-series.html">ES6 101 Series</a></li>
         
       
         
-          <li><a href="http://localhost:4000/series">jQuery Mobile Series</a></li>
+          <li><a href="http://localhost:4000/series/jquery-mobile-series.html">jQuery Mobile Series</a></li>
         
       
         
-          <li><a href="http://localhost:4000/series">Google Maps Javascript API Series</a></li>
+          <li><a href="http://localhost:4000/series/google-maps-api-series.html">Google Maps Javascript API Series</a></li>
         
       
         
@@ -136,7 +136,128 @@
 
     <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
       <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-        <html><head><title>ES6 101 - Fat Arrow Functions</title></head><body id="preview"><br /><div class="separator" style="clear: both; text-align: center;"><a href="https://3.bp.blogspot.com/-hIXzWvgnaY0/Wd17VbnlXQI/AAAAAAAAZtk/lvTO6b2hiIMI2dfgwomQ60wxtuBi0wgNQCLcBGAs/s1600/es6.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://3.bp.blogspot.com/-hIXzWvgnaY0/Wd17VbnlXQI/AAAAAAAAZtk/lvTO6b2hiIMI2dfgwomQ60wxtuBi0wgNQCLcBGAs/s320/es6.jpg" width="320" height="240" data-original-width="638" data-original-height="479" /></a></div><br /><br />I attended a 2 day <strong>ReactJs 101 Training</strong> last week. Yes! towards the end of 2017 - React 101. That story is for another blog post, but I am happy I took this training. It opened my eyes to a lot of things that I have not been working on and made me realize that I was really falling behind the Javascript scene.<br /><br />The main thing that I realized I was lacking was <strong>ES6</strong>. I know a couple of things, but am not using it on a regular basis. One statement by the trainer, especially hit me hard.<br /><br /><blockquote>"<em>ES6 has been around for over 2 years now (with babel). There is no reason for you to not use it! If you are not using it today, you are definitely missing the boat!</em>"</blockquote><br /><br />So have now decided to start learning something everyday and post it. Share my learnings with the world and get some feedback, if anyone is willing to share some.<br /><br />I am going to start with the <strong>Arrow Functions</strong> or as they are very commonly referred to as <strong>Fat Arrow Functions</strong>. Whenever someone refers to a Fat Arrow function there are 3 things that should be considered right away!<br /><ol><li>Syntax<br />The <strong>=&gt;</strong> syntax is a short hand syntax for the original function expression. It effectively converts<br /><pre><code class="language-javascript">    <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">arguments</span>) </span>{<br />        expression<br />    }<br /></code></pre>to basically<br /><pre><code class="language-javascript">    (arguments) =&gt; {expression}<br /></code></pre></li><li>Implicit <code>return</code><br />If an expression is being used after an arrow, the return is implicit, so no return is required. Again we will look at an example soon.</li></br><li>The context of <code>this</code><br />This is probably the most important offering of the Fat Arrow Functions. <code>this</code> is now <strong>lexically</strong> bound to the function. We will look at this in some more detail in the example that follow.</li></ol><h1><a href="https://www.blogger.com/null" id="Fat_Arrow_Function_Examples_27"></a>Fat Arrow Function Examples</h1><h3><a href="https://www.blogger.com/null" id="1_Fat_Arrow_Syntax_example_28"></a>1. Fat Arrow Syntax example</h3>In the example below we will see how the syntax changes from the previous function expression to fat arrow.<br /><pre><code class="language-javascript">    <span class="hljs-comment">// We will cover let in another blog post. If 'let' is making you uncomfortable go ahead</span><br />    <span class="hljs-comment">// and change it to 'var'</span><br />    <span class="hljs-keyword">let</span> util = {<br />        logging: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">val</span>)</span>{<br />            <span class="hljs-built_in">console</span>.log(val);<br />        }<br />    }<br />    util.logging(<span class="hljs-string">'Logging from old function syntax.'</span>);<br /></code></pre>now will become,<br /><pre><code class="language-javascript">    <span class="hljs-keyword">let</span> util = {<br />        logging: (val) =&gt; {<br />            <span class="hljs-built_in">console</span>.log(val);<br />        }<br />    }<br />    util.logging(<span class="hljs-string">'This is logged from the fat arrow function.'</span>);<br /></code></pre>Pretty simple eh!? Yeah right! Now makes me wonder, why I wasn’t using this until now! But now I will be writing all my simple functions in this short hand format. If you are feeling like reading what <code>let</code> is check out my <a href="https://shreerangpatwardhan.blogspot.com/2017/10/es6-101-lexical-declarations-let.html">post</a> on the topic!<br /><h3><a href="https://www.blogger.com/null" id="2_Implicit_return_51"></a>2. Implicit <code>return</code></h3>Think of all the utility functions that you woud have in your code base that <code>retun</code> some value to its caller. Now you can get rid of all those <code>return</code> statements, because the fat arrow functions have an implicit retun value. Let’s look at this is action below.<br /><pre><code class="language-javascript">    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">multiple</span>(<span class="hljs-params">a,b</span>) </span>{<br />        <span class="hljs-keyword">return</span> a*b;<br />    }<br />    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">"2*5 = "</span> + multiple(<span class="hljs-number">2</span>,<span class="hljs-number">5</span>));<br /></code></pre>This will now become,<br /><pre><code class="language-javascript">    <span class="hljs-keyword">let</span> multiple = (a, b) =&gt; a * b;<br />    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">"2*5 = "</span> + multiple(<span class="hljs-number">2</span>,<span class="hljs-number">5</span>));<br /></code></pre>Again pretty simple! Makes me cry at my ignorance 😔 The new syntax makes life a breeze.<br /><h3><a href="https://www.blogger.com/null" id="3_Lexical_this_66"></a>3. Lexical <code>this</code></h3>This is most definitely the most important part of this blog post. How does the fat arrow function treat <code>this</code> different from the previous function syntax. We will look at it pretty soon, but before that, do you remember all the times when you had to do<br /><pre><code class="language-javascript">    <span class="hljs-keyword">var</span> that = <span class="hljs-keyword">this</span>;<br />    <span class="hljs-comment">// or</span><br />    <span class="hljs-keyword">var</span> self = <span class="hljs-keyword">this</span>;<br />    <span class="hljs-comment">// or</span><br />    <span class="hljs-keyword">var</span> _this = <span class="hljs-keyword">this</span>;<br />    <span class="hljs-comment">// or</span><br />    .bind(<span class="hljs-keyword">this</span>)<br /></code></pre>Made life miserable. We had to do one of the above to really maintain the right context of <code>this</code>. With fat arrow functions, we don’t have to do it anymore. These functions maintain a lexical context of <code>this</code>. If you need to understand the different workings of <code>this</code> I would recommend you read an <a href="http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/">awesome article</a> on the topic. For the rest, who think they know why we need <code>var that = this;</code>; let’s take a look at the example below.<br /><pre><code class="language-javascript"><span class="hljs-keyword">var</span> user = {<br />    <span class="hljs-comment">// The data is what it is just because am a cricket fan</span><br />    tournament: <span class="hljs-string">"ICC World Cup"</span>,<br />    data: [<br />        {name: <span class="hljs-string">"Sachin Tendulkar"</span>, age: <span class="hljs-number">18</span>},<br />        {name: <span class="hljs-string">"Sunil Gavaskar"</span>, age: <span class="hljs-number">22</span>}<br />    ],<br />    clickHandler: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{<br />        <span class="hljs-keyword">var</span> self = <span class="hljs-keyword">this</span>; <span class="hljs-comment">// You know what this is!</span><br />        <span class="hljs-keyword">this</span>.data.forEach (<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">person</span>) </span>{<br />            <span class="hljs-comment">// We need self so that we get access to the value of 'tournament'</span><br />            <span class="hljs-comment">// which is outside of this.data</span><br />            <span class="hljs-built_in">console</span>.log (person.name + <span class="hljs-string">" has played the "</span> + self.tournament + <span class="hljs-string">" at the age of "</span> + person.age)<br />        })<br />    }<br />}<br />user.clickHandler();<br /></code></pre>The above code when written as a Fat Arrow function, is going to blow your mind away!<br /><pre><code class="language-javascript"><span class="hljs-keyword">var</span> user = {<br />    tournament: <span class="hljs-string">"ICC World Cup"</span>,<br />    data: [<br />        {name: <span class="hljs-string">"Sachin Tendulkar"</span>, age: <span class="hljs-number">18</span>},<br />        {name: <span class="hljs-string">"Sunil Gavaskar"</span>, age: <span class="hljs-number">22</span>}<br />    ],<br />    clickHandler:<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{<br />        <span class="hljs-keyword">this</span>.data.forEach ((person) =&gt; {<br />            <span class="hljs-comment">// Here is all the magic. You can now access the value of 'tournament'</span><br />            <span class="hljs-comment">// directly using `this`</span><br />            <span class="hljs-built_in">console</span>.log (person.name + <span class="hljs-string">" has played the "</span> + <span class="hljs-keyword">this</span>.tournament + <span class="hljs-string">" at the age of "</span> + person.age)<br />        })<br />    }<br />}<br />user.clickHandler();<br /></code></pre>In ES5, <code>bind()</code> or <code>var that = this;</code> are necessary as functions create their own <code>this</code>. We need to store the parent <code>this</code> in a variable that can be referenced in the callback or take care of binding ourselves. However, in ES6, Arrows instead bind <code>this</code> to the immediate enclosing lexical scope. Much better, right! These arrow functions seem so much more natural.<br /><br />This concludes this blog post of ES6 Arrow functions or the Fat Arrow functions. Make sure you start using it right away! You don’t have to go to your code base and start converting functions immediately, but at least start using this new syntax for all the new functions that you will write from here on.<br /><br />I know I am joining the band wagon really late and definitely am not one of the early adopters, but there definitely would be at least one person I would be able to help with this post apart from the future me!😀<br /><br />Stay tuned for more posts on ES6 and things that I will keep learning. For those who have followed this blog of mine, from it’s early days, you will see a lot more posts! Until next time - have fun with the fat arrow functions!<br /><br /><br /></body></html>
+        <p><img src="/assets/blog/ES6.jpg" alt="ES6 Banner image" />
+I attended a 2 day <strong>ReactJs 101 Training</strong> last week. Yes! towards the end of 2017 - React 101. That story is for another blog post, but I am happy I took this training. It opened my eyes to a lot of things that I have not been working on and made me realize that I was really falling behind the Javascript scene.</p>
+
+<p>The main thing that I realized I was lacking was <strong>ES6</strong>. I know a couple of things, but am not using it on a regular basis. One statement by the trainer, especially hit me hard.</p>
+<blockquote>
+  <p>“<em>ES6 has been around for over 2 years now (with babel). There is no reason for you to not use it! If you are not using it today, you are definitely missing the boat!</em>”</p>
+</blockquote>
+
+<p>So have now decided to start learning something everyday and post it. Share my learnings with the world and get some feedback, if anyone is willing to share some.</p>
+
+<p>I am going to start with the <strong>Arrow Functions</strong> or as they are very commonly referred to as <strong>Fat Arrow Functions</strong>. Whenever someone refers to a Fat Arrow function there are 3 things that should be considered right away!</p>
+
+<ol>
+  <li>Syntax
+ The <strong>=&gt;</strong> syntax is a short hand syntax for the original function expression. It effectively converts
+    <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>     <span class="kd">function</span> <span class="p">(</span><span class="kr">arguments</span><span class="p">)</span> <span class="p">{</span>
+         <span class="nx">expression</span>
+     <span class="p">}</span>
+</code></pre></div>    </div>
+    <p>to basically</p>
+    <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>     <span class="p">(</span><span class="nx">argumnets</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span><span class="nx">expression</span><span class="p">}</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Implicit <code class="highlighter-rouge">return</code>
+ If an expression is being used after an arrow, the return is implicit, so no return is required. Again we will look at anm example soon.</p>
+  </li>
+  <li>The context of <code class="highlighter-rouge">this</code>
+ This is probably the most important offering of the Fat Arrow Functions. <code class="highlighter-rouge">this</code> is now <strong>lexically</strong> bound to the function. We will look at this in some more detail in the example that follow.</li>
+</ol>
+
+<h1 id="fat-arrow-function-examples">Fat Arrow Function Examples</h1>
+<h3 id="1-fat-arrow-syntax-example">1. Fat Arrow Syntax example</h3>
+<p>In the example below we will see how the syntax changes from the previous function expression to fat arrow.</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="c1">// We will cover let in another blog post. If 'let' is making you uncomfortable go ahead</span>
+    <span class="c1">// and change it to 'var'</span>
+    <span class="kd">let</span> <span class="nx">util</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="na">logging</span><span class="p">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">val</span><span class="p">){</span>
+            <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">val</span><span class="p">);</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+    <span class="nx">util</span><span class="p">.</span><span class="nx">logging</span><span class="p">(</span><span class="s1">'Logging from old function syntax.'</span><span class="p">);</span>
+</code></pre></div></div>
+<p>now will become,</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="kd">let</span> <span class="nx">util</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="na">logging</span><span class="p">:</span> <span class="p">(</span><span class="nx">val</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+            <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">val</span><span class="p">);</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+    <span class="nx">util</span><span class="p">.</span><span class="nx">logging</span><span class="p">(</span><span class="s1">'This is logged from the fat arrow function.'</span><span class="p">);</span>
+</code></pre></div></div>
+<p>Pretty simple eh!? Yeah right! Now makes me wonder, why I wasn’t using this until now! But now I will be writing all my simple functions in this short hand format.</p>
+
+<h3 id="2-implicit-return">2. Implicit <code class="highlighter-rouge">return</code></h3>
+<p>Think of all the utility functions that you woud have in your code base that <code class="highlighter-rouge">retun</code> some value to its caller. Now you can get rid of all those <code class="highlighter-rouge">return</code> statements, because the fat arrow functions have an implicit retun value. Let’s look at this is action below.</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="kd">function</span> <span class="nx">multiple</span><span class="p">(</span><span class="nx">a</span><span class="p">,</span><span class="nx">b</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="nx">a</span><span class="o">*</span><span class="nx">b</span><span class="p">;</span>
+    <span class="p">}</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"2*5 = "</span> <span class="o">+</span> <span class="nx">multiple</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">5</span><span class="p">));</span>
+</code></pre></div></div>
+<p>This will now become,</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="kd">let</span> <span class="nx">multiple</span> <span class="o">=</span> <span class="p">(</span><span class="nx">a</span><span class="p">,</span> <span class="nx">b</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">a</span> <span class="o">*</span> <span class="nx">b</span><span class="p">;</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"2*5 = "</span> <span class="o">+</span> <span class="nx">multiple</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span><span class="mi">5</span><span class="p">));</span>
+</code></pre></div></div>
+<p>Again pretty simple! Makes me cry at my ignorance 😔 The new syntax makes life a breeze.</p>
+
+<h3 id="3-lexical-this">3. Lexical <code class="highlighter-rouge">this</code></h3>
+<p>This is most definitely the most important part of this blog post. How does the fat arrow function treat <code class="highlighter-rouge">this</code> different from the previous function syntax. We will look at it pretty soon, but before that, do you remember all the times when you had to do</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="kd">var</span> <span class="nx">that</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
+    <span class="c1">// or</span>
+    <span class="kd">var</span> <span class="nb">self</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
+    <span class="c1">// or</span>
+    <span class="kd">var</span> <span class="nx">_this</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
+    <span class="c1">// or</span>
+    <span class="p">.</span><span class="nx">bind</span><span class="p">(</span><span class="k">this</span><span class="p">)</span>
+</code></pre></div></div>
+<p>Made life miserable. We had to do one of the above to really maintain the right context of <code class="highlighter-rouge">this</code>. With fat arrow functions, we don’t have to do it anymore. These functions maintain a lexical context of <code class="highlighter-rouge">this</code>. If you need to understand the different workings of <code class="highlighter-rouge">this</code> I would recommend you read an <a href="http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/">awesome article</a> on the topic. For the rest, who think they know why we need <code class="highlighter-rouge">var that = this;</code>; let’s take a look at the example below.</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">user</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="c1">// The data is what it is just because am a cricket fan</span>
+    <span class="na">tournament</span><span class="p">:</span> <span class="s2">"ICC World Cup"</span><span class="p">,</span>
+    <span class="na">data</span><span class="p">:</span> <span class="p">[</span>
+        <span class="p">{</span><span class="na">name</span><span class="p">:</span> <span class="s2">"Sachin Tendulkar"</span><span class="p">,</span> <span class="na">age</span><span class="p">:</span> <span class="mi">18</span><span class="p">},</span>
+        <span class="p">{</span><span class="na">name</span><span class="p">:</span> <span class="s2">"Sunil Gavaskar"</span><span class="p">,</span> <span class="na">age</span><span class="p">:</span> <span class="mi">22</span><span class="p">}</span>
+    <span class="p">],</span>
+    <span class="na">clickHandler</span><span class="p">:</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+        <span class="kd">var</span> <span class="nb">self</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span> <span class="c1">// You know what this is!</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">data</span><span class="p">.</span><span class="nx">forEach</span> <span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">person</span><span class="p">)</span> <span class="p">{</span>
+            <span class="c1">// We need self so that we get access to the value of 'tournament'</span>
+            <span class="c1">// which is outside of this.data</span>
+            <span class="nx">console</span><span class="p">.</span><span class="nx">log</span> <span class="p">(</span><span class="nx">person</span><span class="p">.</span><span class="nx">name</span> <span class="o">+</span> <span class="s2">" has played the "</span> <span class="o">+</span> <span class="nb">self</span><span class="p">.</span><span class="nx">tournament</span> <span class="o">+</span> <span class="s2">" at the age of "</span> <span class="o">+</span> <span class="nx">person</span><span class="p">.</span><span class="nx">age</span><span class="p">)</span>
+        <span class="p">})</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+<span class="nx">user</span><span class="p">.</span><span class="nx">clickHandler</span><span class="p">();</span>
+</code></pre></div></div>
+<p>The above code when written as a Fat Arrow function, is going to blow your mind away!</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">user</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="na">tournament</span><span class="p">:</span> <span class="s2">"ICC World Cup"</span><span class="p">,</span>
+    <span class="na">data</span><span class="p">:</span> <span class="p">[</span>
+        <span class="p">{</span><span class="na">name</span><span class="p">:</span> <span class="s2">"Sachin Tendulkar"</span><span class="p">,</span> <span class="na">age</span><span class="p">:</span> <span class="mi">18</span><span class="p">},</span>
+        <span class="p">{</span><span class="na">name</span><span class="p">:</span> <span class="s2">"Sunil Gavaskar"</span><span class="p">,</span> <span class="na">age</span><span class="p">:</span> <span class="mi">22</span><span class="p">}</span>
+    <span class="p">],</span>
+    <span class="na">clickHandler</span><span class="p">:</span><span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+        <span class="k">this</span><span class="p">.</span><span class="nx">data</span><span class="p">.</span><span class="nx">forEach</span> <span class="p">((</span><span class="nx">person</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+            <span class="c1">// Here is all the magic. You can now access the value of 'tournament'</span>
+            <span class="c1">// directly using `this`</span>
+            <span class="nx">console</span><span class="p">.</span><span class="nx">log</span> <span class="p">(</span><span class="nx">person</span><span class="p">.</span><span class="nx">name</span> <span class="o">+</span> <span class="s2">" has played the "</span> <span class="o">+</span> <span class="k">this</span><span class="p">.</span><span class="nx">tournament</span> <span class="o">+</span> <span class="s2">" at the age of "</span> <span class="o">+</span> <span class="nx">person</span><span class="p">.</span><span class="nx">age</span><span class="p">)</span>
+        <span class="p">})</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+<span class="nx">user</span><span class="p">.</span><span class="nx">clickHandler</span><span class="p">();</span>
+</code></pre></div></div>
+
+<p>In ES5, <code class="highlighter-rouge">bind()</code> or <code class="highlighter-rouge">var that = this;</code> are necessary as functions create their own <code class="highlighter-rouge">this</code>. We need to store the parent <code class="highlighter-rouge">this</code> in a variable that can be referenced in the callback or take care of binding ourselves. However, in ES6, Arrows instead bind <code class="highlighter-rouge">this</code> to the immediate enclosing lexical scope. Much better, right! These arrow functions seem so much more natural.</p>
+
+<p>This concludes this blog post of ES6 Arrow functions or the Fat Arrow functions. Make sure you start using it right away! YOu don’t have to go to your code base and start converting functions immediately, but atleast start using this new syntax for all the new functions that you will write from here on.</p>
+
+<p>I know I am joining the band wagon really late and definitely am not one of the early addopters, but there definitely would be atlest one person I would be able to help with this post apart from the future me! 😀</p>
+
+<p>Stay tuned for more posts on ES6 and things that I will keep learning. For those who have followed this blog of mine, from it’s early days, you will see a lot more posts! Until next time - have fun with the fat arrow functions!</p>
+
       </article>
       <div class="post-ads">
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>

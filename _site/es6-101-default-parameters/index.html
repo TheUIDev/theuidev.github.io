@@ -105,15 +105,15 @@
         
       
         
-          <li><a href="http://localhost:4000/series">ES6 101 Series</a></li>
+          <li><a href="http://localhost:4000/series/es6-101-series.html">ES6 101 Series</a></li>
         
       
         
-          <li><a href="http://localhost:4000/series">jQuery Mobile Series</a></li>
+          <li><a href="http://localhost:4000/series/jquery-mobile-series.html">jQuery Mobile Series</a></li>
         
       
         
-          <li><a href="http://localhost:4000/series">Google Maps Javascript API Series</a></li>
+          <li><a href="http://localhost:4000/series/google-maps-api-series.html">Google Maps Javascript API Series</a></li>
         
       
         
@@ -136,7 +136,59 @@
 
     <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
       <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-        <html><head><meta charset="utf-8"><title>ES6 101 - Default Parameters</title></head><body id="preview"><br /><div class="separator" style="clear: both; text-align: center;"><a href="https://2.bp.blogspot.com/-S34I00hdAvw/WeZPfWCyN0I/AAAAAAAAZ3U/iIFUuFiduxQQJacLwkVBsU6fTdPyCp7xQCPcBGAYYCw/s1600/es6.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="479" data-original-width="638" height="240" src="https://2.bp.blogspot.com/-S34I00hdAvw/WeZPfWCyN0I/AAAAAAAAZ3U/iIFUuFiduxQQJacLwkVBsU6fTdPyCp7xQCPcBGAYYCw/s320/es6.jpg" width="400" /></a></div><p>As we make progress in this ES6 series, let’s look at <strong>Default Parameters</strong> today. This is the 7th post in the ES6 series. As the name suggests, ES6 now allows you to initialize function parameters with some default values in case no value or <code>undefined</code> is passed to the function.</p><p>When using the ES5 syntax, it is a common practice to check the values of the parameteres in the function body. We would generally do stuff like this.</p><pre><code class="language-javascript"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">sum</span>(<span class="hljs-params">a,b</span>) </span>{<br />    <span class="hljs-keyword">var</span> total;<br />    <span class="hljs-keyword">if</span> (<span class="hljs-keyword">typeof</span>(b) === <span class="hljs-string">'undefined'</span>) {<br />        b = <span class="hljs-number">10</span>; <span class="hljs-comment">// Default value of b if it is unavailable</span><br />    }<br />    total = a + b;<br />    <span class="hljs-keyword">return</span> total;<br />}<br /><span class="hljs-built_in">console</span>.log(<span class="hljs-string">'Sum Total is: '</span> + sum(<span class="hljs-number">1</span>)); <span class="hljs-comment">// 11</span><br /></code></pre><p>Other ways of setting the default value of <code>b</code> would include the following.</p><pre><code class="language-javascript">    b = b || <span class="hljs-number">10</span>; <span class="hljs-comment">// Default value of b is set</span><br /></code></pre><p>or</p><pre><code class="language-javascript">    <span class="hljs-keyword">if</span>(<span class="hljs-built_in">arguments</span>.length === <span class="hljs-number">1</span>) {<br />        b = <span class="hljs-number">10</span>; <span class="hljs-comment">// Default value of b is set</span><br />    }<br /></code></pre><p>With ES6, you can now set a defaut value for parameters in the function head itself. Let’s modify the above example and rewrite that with ES6.</p><pre><code class="language-javascript">    <span class="hljs-keyword">let</span> sum = (a, b=<span class="hljs-number">10</span>) =&gt; a + b;<br />    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'Sum Total is: '</span> + sum(<span class="hljs-number">1</span>)) <span class="hljs-comment">// 11</span><br />    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'Sum Total is: '</span> + sum(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>)) <span class="hljs-comment">// 3</span><br /></code></pre><p>That’s it! As simple as that! See how easy life has become! 😀 😍 As can be seen in the example above, if you do send both the parameters in the function call, the default value will just be ignored. 😎</p><p>One thing to note here is that the default value of a parameter is evaluated at run time. Let’s take a look at an example to quickly undersatnd this concept.</p><pre><code class="language-javascript">    <span class="hljs-keyword">let</span> append = (a, b=[]) =&gt; {<br />        b.push(a);<br />        <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'New array is:'</span> + b);<br />}<br />append(<span class="hljs-number">1</span>); <span class="hljs-comment">// New array is: 1</span><br />append(<span class="hljs-number">2</span>); <span class="hljs-comment">// New array is: 2</span><br /></code></pre><p>This goes to show that the <code>array b</code> is initialized to an empty array every single time the function is invoked. Just make sure you keep this mind when implementing <strong>Default parameters</strong> in your code.</p><p>This significantly reduces the code, and must be resulting in pretty good performance improvements. I haven’t run any tests so far, but I am thinking that I should do a post of performance improvements when using the ES6 features. 😈 That’s for another time though. Until then, enjoy this post and let me know in case you catch any errors with the post. In case you are interested in learning other ES6 features, here’s a list of the articles covered in the ES6 series so far. 🙌</p><ol><li><a href="https://shreerangpatwardhan.blogspot.com/2017/10/es6-fat-arrow-functions.html">Fat Arrow Functions</a></li><li><a href="https://shreerangpatwardhan.blogspot.com/2017/10/es6-101-lexical-declarations-let.html">Lexical Declarations - Let</a></li><li><a href="https://shreerangpatwardhan.blogspot.com/2017/10/es6-101-lexical-declarations-const.html">Lexical Declarations - Const</a></li><li><a href="https://shreerangpatwardhan.blogspot.com/2017/10/es6-101-spread-operator.html">Spread OPerator</a></li><li><a href="https://shreerangpatwardhan.blogspot.com/2017/10/es6-template-literals.html">Template Literal</a></li><li><a href="https://shreerangpatwardhan.blogspot.com/2017/10/es6-rest-operator.html">Rest Operator</a></li></ol><br /></body></html>
+        <p><img src="/assets/blog/ES6.jpg" alt="ES6 Banner image" />
+As we make progress in this ES6 series, let’s look at <strong>Default Parameters</strong> today. This is the 7th post in the ES6 series. As the name suggests, ES6 now allows you to initialize function parameters with some default values in case no value or <code class="highlighter-rouge">undefined</code> is passed to the function.</p>
+
+<p>When using the ES5 syntax, it is a common practice to check the values of the parameteres in the function body. We would generally do stuff like this.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">sum</span><span class="p">(</span><span class="nx">a</span><span class="p">,</span><span class="nx">b</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">total</span><span class="p">;</span>
+    <span class="k">if</span> <span class="p">(</span><span class="k">typeof</span><span class="p">(</span><span class="nx">b</span><span class="p">)</span> <span class="o">===</span> <span class="s1">'undefined'</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">b</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span> <span class="c1">// Default value of b if it is unavailable</span>
+    <span class="p">}</span>
+    <span class="nx">total</span> <span class="o">=</span> <span class="nx">a</span> <span class="o">+</span> <span class="nx">b</span><span class="p">;</span>
+    <span class="k">return</span> <span class="nx">total</span><span class="p">;</span>
+<span class="p">}</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'Sum Total is: '</span> <span class="o">+</span> <span class="nx">sum</span><span class="p">(</span><span class="mi">1</span><span class="p">));</span> <span class="c1">// 11</span>
+</code></pre></div></div>
+
+<p>Other ways of setting the default value of <code class="highlighter-rouge">b</code> would include the following.</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="nx">b</span> <span class="o">=</span> <span class="nx">b</span> <span class="o">||</span> <span class="mi">10</span><span class="p">;</span> <span class="c1">// Default value of b is set</span>
+</code></pre></div></div>
+<p>or</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="k">if</span><span class="p">(</span><span class="kr">arguments</span><span class="p">.</span><span class="nx">length</span> <span class="o">===</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">b</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span> <span class="c1">// Default value of b is set</span>
+    <span class="p">}</span>
+</code></pre></div></div>
+
+<p>With ES6, you can now set a defaut value for parameters in the function head itself. Let’s modify the above example and rewrite that with ES6.</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="kd">let</span> <span class="nx">sum</span> <span class="o">=</span> <span class="p">(</span><span class="nx">a</span><span class="p">,</span> <span class="nx">b</span><span class="o">=</span><span class="mi">10</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">a</span> <span class="o">+</span> <span class="nx">b</span><span class="p">;</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'Sum Total is: '</span> <span class="o">+</span> <span class="nx">sum</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span> <span class="c1">// 11</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'Sum Total is: '</span> <span class="o">+</span> <span class="nx">sum</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">))</span> <span class="c1">// 3</span>
+</code></pre></div></div>
+<p>That’s it! As simple as that! See how easy life has become! 😀 😍 As can be seen in the example above, if you do send both the parameters in the function call, the default value will just be ignored. 😎</p>
+
+<p>One thing to note here is that the default value of a parameter is evaluated at run time. Let’s take a look at an example to quickly undersatnd this concept.</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="kd">let</span> <span class="nx">append</span> <span class="o">=</span> <span class="p">(</span><span class="nx">a</span><span class="p">,</span> <span class="nx">b</span><span class="o">=</span><span class="p">[])</span> <span class="o">=&gt;</span> <span class="p">{</span>
+        <span class="nx">b</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">a</span><span class="p">);</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'New array is:'</span> <span class="o">+</span> <span class="nx">b</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="nx">append</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span> <span class="c1">// New array is: 1</span>
+<span class="nx">append</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span> <span class="c1">// New array is: 2</span>
+</code></pre></div></div>
+
+<p>This goes to show that the <code class="highlighter-rouge">array b</code> is initialized to an empty array every single time the function is invoked. Just make sure you keep this mind when implementing <strong>Default parameters</strong> in your code.</p>
+
+<p>This significantly reduces the code, and must be resulting in pretty good performance improvements. I haven’t run any tests so far, but I am thinking that I should do a post of performance improvements when using the ES6 features. 😈 That’s for another time though. Until then, enjoy this post and let me know in case you catch any errors with the post. In case you are interested in learning other ES6 features, here’s a list of the articles covered in the ES6 series so far. 🙌</p>
+<ol>
+  <li><a href="https://shreerangpatwardhan.blogspot.com/2017/10/es6-fat-arrow-functions.html">Fat Arrow Functions</a></li>
+  <li><a href="https://shreerangpatwardhan.blogspot.com/2017/10/es6-101-lexical-declarations-let.html">Lexical Declarations - Let</a></li>
+  <li><a href="https://shreerangpatwardhan.blogspot.com/2017/10/es6-101-lexical-declarations-const.html">Lexical Declarations - Const</a></li>
+  <li><a href="https://shreerangpatwardhan.blogspot.com/2017/10/es6-101-spread-operator.html">Spread OPerator</a></li>
+  <li><a href="https://shreerangpatwardhan.blogspot.com/2017/10/es6-template-literals.html">Template Literal</a></li>
+  <li><a href="https://shreerangpatwardhan.blogspot.com/2017/10/es6-rest-operator.html">Rest Operator</a></li>
+</ol>
+
       </article>
       <div class="post-ads">
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>

@@ -34,11 +34,11 @@ links:
   - title: Home
     url: /
   - title: ES6 101 Series
-    url: /series
+    url: /series/es6-101-series.html
   - title: jQuery Mobile Series
-    url: /series
+    url: /series/jquery-mobile-series.html
   - title: Google Maps Javascript API Series
-    url: /series
+    url: /series/google-maps-api-series.html
   - title: Tags
     url: /tags
   - title: About Me

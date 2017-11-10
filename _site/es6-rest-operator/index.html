@@ -105,15 +105,15 @@
         
       
         
-          <li><a href="http://localhost:4000/series">ES6 101 Series</a></li>
+          <li><a href="http://localhost:4000/series/es6-101-series.html">ES6 101 Series</a></li>
         
       
         
-          <li><a href="http://localhost:4000/series">jQuery Mobile Series</a></li>
+          <li><a href="http://localhost:4000/series/jquery-mobile-series.html">jQuery Mobile Series</a></li>
         
       
         
-          <li><a href="http://localhost:4000/series">Google Maps Javascript API Series</a></li>
+          <li><a href="http://localhost:4000/series/google-maps-api-series.html">Google Maps Javascript API Series</a></li>
         
       
         
@@ -136,7 +136,24 @@
 
     <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
       <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-        <html><head><meta charset="utf-8"><title>ES6 Rest.md</title><style></style></head><body id="preview"><br /><p><div class="separator" style="clear: both; text-align: center;"><a href="https://4.bp.blogspot.com/-hIXzWvgnaY0/Wd17VbnlXQI/AAAAAAAAZto/D6TcCHooPAMiztC2rxVSwRD8lD0bjAeggCPcBGAYYCw/s1600/es6.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://4.bp.blogspot.com/-hIXzWvgnaY0/Wd17VbnlXQI/AAAAAAAAZto/D6TcCHooPAMiztC2rxVSwRD8lD0bjAeggCPcBGAYYCw/s400/es6.jpg" width="400" height="300" data-original-width="638" data-original-height="479" /></a></div></p><p>Welcome to the 6th post in the ES6 101 series and the topic for today is the <code>Rest</code> operator. The <code>rest</code> operator now allows us to process infinite parameters in a function.😯 Yes. really! If you remember the spread operator <code>...</code> we discussed previously in this series, the rest operator looks the same <code>...</code> Let’s dig into how we can use the rest operator. It is really simple and easy to work with.</p><h2><a id="Examples_for_ES6_Rest_operator_2"></a>Examples for ES6 Rest operator</h2><p><strong>Problem Statement:</strong> Calculate the sum of all numbers sent to the add function.<br><br />To achieve this in ES5, we would find the number of parameters and then run a for loop that many number of times and calculate the sum. In ES6, with the rest operator it is a cake walk.</p><pre><code class="language-javascript">    <span class="hljs-keyword">let</span> sum = (a, ...b) =&gt; {<br />        <span class="hljs-built_in">console</span>.log(a); <span class="hljs-comment">// This is the first parameter.</span><br />        <span class="hljs-built_in">console</span>.log(b); <span class="hljs-comment">// This is an array of the remaining parameters.</span><br />        <span class="hljs-built_in">console</span>.log(<span class="hljs-string">"Total sum is: "</span> + (a + b.reduce((num, total) =&gt; num + total)));<br />    }<br />    sum(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>,<span class="hljs-number">4</span>,<span class="hljs-number">5</span>); <span class="hljs-comment">// 15</span><br />    sum(<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>); <span class="hljs-comment">// 6</span><br />    sum(<span class="hljs-number">7</span>,<span class="hljs-number">8</span>,<span class="hljs-number">9</span>); <span class="hljs-comment">// 24</span><br /></code></pre><p>As you can see, it is pretty imple and straight forward to use the rest operator. 😍 We no longer need to loop through the parameters of the function, find their length and all that hassel! So what are you waiting for? Go ahead and start modifying your code right away! Will see you in the next post tomorrow…</p><br /></body></html>
+        <p><img src="/assets/blog/ES6.jpg" alt="ES6 Banner image" />
+Welcome to the 6th post in the ES6 101 series and the topic for today is the <code class="highlighter-rouge">Rest</code> operator. The <code class="highlighter-rouge">rest</code> operator now allows us to process infinite parameters in a function.😯 Yes. really! If you remember the spread operator <code class="highlighter-rouge">...</code> we discussed previously in this series, the rest operator looks the same <code class="highlighter-rouge">...</code> Let’s dig into how we can use the rest operator. It is really simple and easy to work with.</p>
+
+<h2 id="examples-for-es6-rest-operator">Examples for ES6 Rest operator</h2>
+
+<p><strong>Problem Statement:</strong> Calculate the sum of all numbers sent to the add function.
+To achieve this in ES5, we would find the number of parameters and then run a for loop that many number of times and calculate the sum. In ES6, with the rest operator it is a cake walk.</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="kd">let</span> <span class="nx">sum</span> <span class="o">=</span> <span class="p">(</span><span class="nx">a</span><span class="p">,</span> <span class="p">...</span><span class="nx">b</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">a</span><span class="p">);</span> <span class="c1">// This is the first parameter.</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">b</span><span class="p">);</span> <span class="c1">// This is an array of the remaining parameters.</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"Total sum is: "</span> <span class="o">+</span> <span class="p">(</span><span class="nx">a</span> <span class="o">+</span> <span class="nx">b</span><span class="p">.</span><span class="nx">reduce</span><span class="p">((</span><span class="nx">num</span><span class="p">,</span> <span class="nx">total</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">num</span> <span class="o">+</span> <span class="nx">total</span><span class="p">)));</span>
+    <span class="p">}</span>
+    <span class="nx">sum</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">,</span><span class="mi">5</span><span class="p">);</span> <span class="c1">// 15</span>
+    <span class="nx">sum</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">);</span> <span class="c1">// 6</span>
+    <span class="nx">sum</span><span class="p">(</span><span class="mi">7</span><span class="p">,</span><span class="mi">8</span><span class="p">,</span><span class="mi">9</span><span class="p">);</span> <span class="c1">// 24</span>
+</code></pre></div></div>
+<p>As you can see, it is pretty imple and straight forward to use the rest operator. 😍 We no longer need to loop through the parameters of the function, find their length and all that hassel! So what are you waiting for? Go ahead and start modifying your code right away! Will see you in the next post tomorrow…</p>
+
       </article>
       <div class="post-ads">
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>

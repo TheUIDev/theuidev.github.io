@@ -105,15 +105,15 @@
         
       
         
-          <li><a href="http://localhost:4000/series">ES6 101 Series</a></li>
+          <li><a href="http://localhost:4000/series/es6-101-series.html">ES6 101 Series</a></li>
         
       
         
-          <li><a href="http://localhost:4000/series">jQuery Mobile Series</a></li>
+          <li><a href="http://localhost:4000/series/jquery-mobile-series.html">jQuery Mobile Series</a></li>
         
       
         
-          <li><a href="http://localhost:4000/series">Google Maps Javascript API Series</a></li>
+          <li><a href="http://localhost:4000/series/google-maps-api-series.html">Google Maps Javascript API Series</a></li>
         
       
         
@@ -136,7 +136,53 @@
 
     <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
       <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-        <!DOCTYPE html><html><head><meta charset="utf-8"><title>ES6 101 - Lexical Declarations - Const</title><style></style></head><body id="preview"><br /><div class="separator" style="clear: both; text-align: center;"><a href="https://4.bp.blogspot.com/-hIXzWvgnaY0/Wd17VbnlXQI/AAAAAAAAZto/D6TcCHooPAMiztC2rxVSwRD8lD0bjAeggCPcBGAYYCw/s1600/es6.jpg" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" src="https://4.bp.blogspot.com/-hIXzWvgnaY0/Wd17VbnlXQI/AAAAAAAAZto/D6TcCHooPAMiztC2rxVSwRD8lD0bjAeggCPcBGAYYCw/s320/es6.jpg" width="320" height="240" data-original-width="638" data-original-height="479" /><br/></a></div><p>This is the third post in the ES6 101 Series and we will be looking at the ES6 lexical declartions keyword <code>const</code>. This is more of a continuation of the post on <code>let</code>, so I would highly recommend you to read <a href="https://shreerangpatwardhan.blogspot.com/2017/10/es6-101-lexical-declarations-let.html">that</a> before you move forward. In case you feel like looking at <code>const</code> that too works! Go ahead and keep reading.</p><p>As we saw in the post yesterday, variables created with the <code>let</code> keyword have <strong>limited</strong> scope and they live within the block, statement or the expression that they have been declared in. You <strong>cannot</strong> redeclare the <code>let</code> variables but these variables are <strong>mutable</strong>, i.e. theirs values can be changed and updated.</p><p>As the name suggests, <code>const</code> helps you create variables that have a constant value! These variables are <strong>not</strong> mutable, which means, the value of these variables cannot be changed or updated. Let’s look at a few examples to understand this better.</p><h2><a id="Examples_using_ES6_const_6"></a>Examples using ES6 <code>const</code></h2><pre><code class="language-javascript">    <span class="hljs-keyword">const</span> pi = <span class="hljs-number">3.14</span>;<br />    <span class="hljs-built_in">console</span>.log(pi);<br />    <br />    pi = ++pi; <span class="hljs-comment">// Uncaught TypeError: Assignment to constant variable.</span><br /></code></pre><p>The browser throws an error - <code>Uncaught TypeError: Assignment to constant variable.</code> which clearly states that you cannot reassign a value to a constant variable. We can however, use the value of a constant variable in other plces and modify the value of such variables. Let’s modify the above code to do so!</p><pre><code class="language-javascript">    <span class="hljs-keyword">const</span> pi = <span class="hljs-number">3.14</span>;<br />    <span class="hljs-built_in">console</span>.log(pi);<br />    <br />    <span class="hljs-keyword">let</span> piLet = pi;<br />    piLet = ++piLet;<br />    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">"Value os piLet: "</span> + piLet); <span class="hljs-comment">// 4.140000000000001</span><br />    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">"Value os pi: "</span> + pi); <span class="hljs-comment">// 3.14</span><br /></code></pre><p>All of the above holds good, when the value of the constant variable is a number, string or boolean. However, if the value is an object, it should be noted that the constant variable then becomes <strong>mutable</strong>. Let’s look at an example, to clarify this.</p><pre><code class="language-javascript">    <span class="hljs-keyword">const</span> moreVars = {<br />        <span class="hljs-string">"someKey"</span>: <span class="hljs-string">"someValue"</span>,<br />        <span class="hljs-string">"moreKeys"</span>: <span class="hljs-string">"moreValues"</span><br />    } <span class="hljs-comment">// For the lack of creativity! But you get the point!</span><br />    <span class="hljs-built_in">console</span>.log(moreVars); <span class="hljs-comment">// {"someKey":"someValue","moreKeys":"moreValues"}</span><br />    <span class="hljs-built_in">console</span>.log(moreVars.someKey); <span class="hljs-comment">// someValue</span><br />    <span class="hljs-built_in">console</span>.log(moreVars.moreKeys); <span class="hljs-comment">// moreValues</span><br />    <br />    moreVars[<span class="hljs-string">"moreKeys"</span>] = <span class="hljs-string">"someMoreValues"</span>;<br />    <span class="hljs-built_in">console</span>.log(moreVars.moreKeys); <span class="hljs-comment">// someMoreValues</span><br />    <span class="hljs-built_in">console</span>.log(moreVars); <span class="hljs-comment">// {someKey: "someValue", moreKeys: "someMoreValues"}</span><br /></code></pre><p>There are 2 key take aways from the above examples.</p><ol><li>If a variable is decalared as a constant using the <code>const</code> keyword, and has a value set to a string, number or boolean, then the value of such a constant variable <strong>cannot be mutated</strong>.</li><li>If the value of a constant variable is an <strong>object</strong>, only then can the value of such a constant variable <strong>be mutated</strong>.</li></ol><p>Hope this clears up the concept of the ES6 <code>const</code> for you guys and empowers you to use it in your code basees. In the next post in the ES6 series, we will look at the ES6 <code>spread</code> operator. Until next time!</p><br /></body></html>
+        <p><img src="/assets/blog/ES6.jpg" alt="ES6 Banner image" />
+This is the third post in the ES6 101 Series and we will be looking at the ES6 lexical declartions keyword <code class="highlighter-rouge">const</code>. This is more of a continuation of the post on <code class="highlighter-rouge">let</code>, so I would highly recommend you to read <a href="https://shreerangpatwardhan.blogspot.com/2017/10/es6-101-lexical-declarations-let.html">that</a> before you move forward. In case you feel like looking at <code class="highlighter-rouge">const</code> that too works! Go ahead and keep reading.</p>
+
+<p>As we saw in the post yesterday, variables created with the <code class="highlighter-rouge">let</code> keyword have <strong>limited</strong> scope and they live within the block, statement or the expression that they have been declared in. You <strong>cannot</strong> redeclare the <code class="highlighter-rouge">let</code> variables but these variables are <strong>mutable</strong>, i.e. theirs values can be changed and updated.</p>
+
+<p>As the name suggests, <code class="highlighter-rouge">const</code> helps you create variables that have a constant value! These variables are <strong>not</strong> mutable, which means, the value of these variables cannot be changed or updated. Let’s look at a few examples to understand this better.</p>
+
+<h2 id="examples-using-es6-const">Examples using ES6 <code class="highlighter-rouge">const</code></h2>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="kd">const</span> <span class="nx">pi</span> <span class="o">=</span> <span class="mf">3.14</span><span class="p">;</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">pi</span><span class="p">);</span>
+
+    <span class="nx">pi</span> <span class="o">=</span> <span class="o">++</span><span class="nx">pi</span><span class="p">;</span> <span class="c1">// Uncaught TypeError: Assignment to constant variable.</span>
+</code></pre></div></div>
+<p>The browser throws an error - <code class="highlighter-rouge">Uncaught TypeError: Assignment to constant variable.</code> which clearly states that you cannot reassign a value to a constant variable. We can however, use the value of a constant variable in other plces and modify the value of such variables. Let’s modify the above code to do so!</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="kd">const</span> <span class="nx">pi</span> <span class="o">=</span> <span class="mf">3.14</span><span class="p">;</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">pi</span><span class="p">);</span>
+
+    <span class="kd">let</span> <span class="nx">piLet</span> <span class="o">=</span> <span class="nx">pi</span><span class="p">;</span>
+    <span class="nx">piLet</span> <span class="o">=</span> <span class="o">++</span><span class="nx">piLet</span><span class="p">;</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"Value os piLet: "</span> <span class="o">+</span> <span class="nx">piLet</span><span class="p">);</span> <span class="c1">// 4.140000000000001</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"Value os pi: "</span> <span class="o">+</span> <span class="nx">pi</span><span class="p">);</span> <span class="c1">// 3.14</span>
+</code></pre></div></div>
+
+<p>All of the above holds good, when the value of the constant variable is a number, string or boolean. However, if the value is an object, it should be noted that the constant variable then becomes <strong>mutable</strong>. Let’s look at an example, to clarify this.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="kd">const</span> <span class="nx">moreVars</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s2">"someKey"</span><span class="p">:</span> <span class="s2">"someValue"</span><span class="p">,</span>
+        <span class="s2">"moreKeys"</span><span class="p">:</span> <span class="s2">"moreValues"</span>
+    <span class="p">}</span> <span class="c1">// For the lack of creativity! But you get the point!</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">moreVars</span><span class="p">);</span> <span class="c1">// {"someKey":"someValue","moreKeys":"moreValues"}</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">moreVars</span><span class="p">.</span><span class="nx">someKey</span><span class="p">);</span> <span class="c1">// someValue</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">moreVars</span><span class="p">.</span><span class="nx">moreKeys</span><span class="p">);</span> <span class="c1">// moreValues</span>
+
+    <span class="nx">moreVars</span><span class="p">[</span><span class="s2">"moreKeys"</span><span class="p">]</span> <span class="o">=</span> <span class="s2">"someMoreValues"</span><span class="p">;</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">moreVars</span><span class="p">.</span><span class="nx">moreKeys</span><span class="p">);</span> <span class="c1">// someMoreValues</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">moreVars</span><span class="p">);</span> <span class="c1">// {someKey: "someValue", moreKeys: "someMoreValues"}</span>
+</code></pre></div></div>
+
+<p>There are 2 key take aways from the above examples.</p>
+<ol>
+  <li>If a variable is decalared as a constant using the <code class="highlighter-rouge">const</code> keyword, and has a value set to a string, number or boolean, then the value of such a constant variable <strong>cannot be mutated</strong>.</li>
+  <li>If the value of a constant variable is an <strong>object</strong>, only then can the value of such a constant variable <strong>be mutated</strong>.</li>
+</ol>
+
+<p>Hope this clears up the concept of the ES6 <code class="highlighter-rouge">const</code> for you guys and empowers you to use it in your code basees. In the next post in the ES6 series, we will look at the ES6 <code class="highlighter-rouge">spread</code> operator. Until next time!</p>
+
       </article>
       <div class="post-ads">
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
