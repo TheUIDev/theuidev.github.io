@@ -1,14 +1,80 @@
+<b:if cond='data:blog.canonicalUrl == "https://shreerangpatwardhan.blogspot.com/2017/10/es6-101-class.html"'>
+  <link rel="canonical" href="https://theuidev.github.io/es6-101-class/" />
+  <meta http-equiv="refresh" content="0; url=https://theuidev.github.io/es6-101-class/" />
+</b:if>
 <b:if cond='data:blog.canonicalUrl == "http://shreerangpatwardhan.blogspot.com/2017/10/es6-101-class.html"'>
-  <link rel="canonical" href="https://theuidev.github.io/es6-101-class/"/>
-  <meta http-equiv="refresh" content="0; url=https://theuidev.github.io/es6-101-class/"/>
-<b:elseif cond='data:blog.canonicalUrl == "http://shreerangpatwardhan.blogspot.com/2017/10/es6-101-class.html"'>
-  <link rel="canonical" href="https://theuidev.github.io/es6-101-class/"/>
-  <meta http-equiv="refresh" content="0; url=https://theuidev.github.io/es6-101-class/"/>
-<b:elseif cond='data:blog.canonicalUrl == "https://shreerangpatwardhan.blogspot.com/2017/10/es6-101-map.html"'/>
-  <link rel="canonical" href="https://theuidev.github.io/es6-101-map/"/>
-  <meta http-equiv="refresh" content="0; url=https://theuidev.github.io/es6-101-map/"/>
-<b:elseif cond='data:blog.canonicalUrl == "https://shreerangpatwardhan.blogspot.com/2017/10/es6-101-set.html"'/>
-  <link rel="canonical" href="https://theuidev.github.io/es6-101-set/"/>
-  <meta http-equiv="refresh" content="0; url=https://theuidev.github.io/es6-101-set/"/>
-<b:else/>
+  <link rel="canonical" href="https://theuidev.github.io/es6-101-class/" />
+  <meta http-equiv="refresh" content="0; url=https://theuidev.github.io/es6-101-class/" />
+</b:if>
+<b:if cond='data:blog.canonicalUrl == "https://shreerangpatwardhan.blogspot.com/2017/10/es6-101-map.html"'>
+  <link rel="canonical" href="https://theuidev.github.io/es6-101-map/" />
+  <meta http-equiv="refresh" content="0; url=https://theuidev.github.io/es6-101-map/" />
+</b:if>
+<b:if cond='data:blog.canonicalUrl == "https://shreerangpatwardhan.blogspot.com/2017/10/es6-101-set.html"'>
+  <link rel="canonical" href="https://theuidev.github.io/es6-101-set/" />
+  <meta http-equiv="refresh" content="0; url=https://theuidev.github.io/es6-101-set/" />
+</b:if>
+<b:if cond='data:blog.canonicalUrl == "https://shreerangpatwardhan.blogspot.com/2017/10/es6-101-forof.html"'>
+  <link rel="canonical" href="https://theuidev.github.io/es6-101-forof/" />
+  <meta http-equiv="refresh" content="0; url=https://theuidev.github.io/es6-101-forof/" />
+</b:if>
+<b:if cond='data:blog.canonicalUrl == "https://shreerangpatwardhan.blogspot.com/2017/10/es6-101-destructuring.html"'>
+  <link rel="canonical" href="https://theuidev.github.io/es6-101-destructuring/" />
+  <meta http-equiv="refresh" content="0; url=https://theuidev.github.io/es6-101-destructuring/" />
+</b:if>
+<b:if cond='data:blog.canonicalUrl == "https://shreerangpatwardhan.blogspot.com/2017/10/es6-101-default-parameters.html"'>
+  <link rel="canonical" href="https://theuidev.github.io/es6-101-default-parameters/" />
+  <meta http-equiv="refresh" content="0; url=https://theuidev.github.io/es6-101-default-parameters/" />
+</b:if>
+<b:if cond='data:blog.canonicalUrl == "https://shreerangpatwardhan.blogspot.com/2017/10/diwali-wishes.html"'>
+  <link rel="canonical" href="https://theuidev.github.io/diwali-wishes/" />
+  <meta http-equiv="refresh" content="0; url=https://theuidev.github.io/diwali-wishes/" />
+</b:if>
+<b:if cond='data:blog.canonicalUrl == "https://shreerangpatwardhan.blogspot.com/2017/10/es6-rest-operator.html"'>
+  <link rel="canonical" href="https://theuidev.github.io/es6-rest-operator/" />
+  <meta http-equiv="refresh" content="0; url=https://theuidev.github.io/es6-rest-operator/" />
+</b:if>
+<b:if cond='data:blog.canonicalUrl == "https://shreerangpatwardhan.blogspot.com/2017/10/es6-template-literals.html"'>
+  <link rel="canonical" href="https://theuidev.github.io/es6-template-literals/" />
+  <meta http-equiv="refresh" content="0; url=https://theuidev.github.io/es6-template-literals/" />
+</b:if>
+<b:if cond='data:blog.canonicalUrl == "https://shreerangpatwardhan.blogspot.com/2017/10/es6-101-spread-operator.html"'>
+  <link rel="canonical" href="https://theuidev.github.io/es6-101-spread-operator/" />
+  <meta http-equiv="refresh" content="0; url=https://theuidev.github.io/es6-101-spread-operator/" />
+</b:if>
+<b:if cond='data:blog.canonicalUrl == "https://shreerangpatwardhan.blogspot.com/2017/10/es6-101-lexical-declarations-const.html"'>
+  <link rel="canonical" href="https://theuidev.github.io/es6-101-lexical-declarations-const/" />
+  <meta http-equiv="refresh" content="0; url=https://theuidev.github.io/es6-101-lexical-declarations-const/" />
+</b:if>
+<b:if cond='data:blog.canonicalUrl == "https://shreerangpatwardhan.blogspot.com/2017/10/es6-101-lexical-declarations-let.html"'>
+  <link rel="canonical" href="https://theuidev.github.io/es6-101-lexical-declarations-let/" />
+  <meta http-equiv="refresh" content="0; url=https://theuidev.github.io/es6-101-lexical-declarations-let/" />
+</b:if>
+<b:if cond='data:blog.canonicalUrl == "https://shreerangpatwardhan.blogspot.com/2017/10/es6-fat-arrow-functions.html"'>
+  <link rel="canonical" href="https://theuidev.github.io/es6-fat-arrow-functions/" />
+  <meta http-equiv="refresh" content="0; url=https://theuidev.github.io/es6-fat-arrow-functions/" />
+</b:if>
+<b:if cond='data:blog.canonicalUrl == "https://shreerangpatwardhan.blogspot.com/2017/06/js-for-loop-code-performance.html"'>
+  <link rel="canonical" href="https://theuidev.github.io/js-for-loop-code-performance/" />
+  <meta http-equiv="refresh" content="0; url=https://theuidev.github.io/js-for-loop-code-performance/" />
+</b:if>
+<b:if cond='data:blog.canonicalUrl == "https://shreerangpatwardhan.blogspot.com/2017/05/jquery-mobiles-next-big-step.html"'>
+  <link rel="canonical" href="https://theuidev.github.io/jquery-mobiles-next-big-step/" />
+  <meta http-equiv="refresh" content="0; url=https://theuidev.github.io/jquery-mobiles-next-big-step/" />
+</b:if>
+<b:if cond='data:blog.canonicalUrl == "https://shreerangpatwardhan.blogspot.com/2017/01/happy-new-year-2017.html"'>
+  <link rel="canonical" href="https://theuidev.github.io/happy-new-year-2017/" />
+  <meta http-equiv="refresh" content="0; url=https://theuidev.github.io/happy-new-year-2017/" />
+</b:if>
+<b:if cond='data:blog.canonicalUrl == "https://shreerangpatwardhan.blogspot.com/2016/02/looks-do-matter.html"'>
+  <link rel="canonical" href="https://theuidev.github.io/looks-do-matter/" />
+  <meta http-equiv="refresh" content="0; url=https://theuidev.github.io/looks-do-matter/" />
+</b:if>
+<b:if cond='data:blog.canonicalUrl == "https://shreerangpatwardhan.blogspot.com/2016/02/stay-selfish-stay-accessible.html"'>
+  <link rel="canonical" href="https://theuidev.github.io/stay-selfish-stay-accessible/" />
+  <meta http-equiv="refresh" content="0; url=https://theuidev.github.io/stay-selfish-stay-accessible/" />
+</b:if>
+<b:if cond='data:blog.canonicalUrl == "https://shreerangpatwardhan.blogspot.com/2016/02/better-late-than-never.html"'>
+  <link rel="canonical" href="https://theuidev.github.io/better-late-than-never/" />
+  <meta http-equiv="refresh" content="0; url=https://theuidev.github.io/better-late-than-never/" />
 </b:if>
