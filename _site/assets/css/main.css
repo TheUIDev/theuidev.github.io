@@ -858,6 +858,7 @@ body {
 .post-item .content .post-title {
     color: #000;
     font-size: 2rem;
+    color: #25a186;
 }
 @media only screen and (max-width: 37.5rem) {
     .post-item .content .post-title {
