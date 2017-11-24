@@ -18,10 +18,10 @@ blogger_orig_url: http://shreerangpatwardhan.blogspot.com/2017/10/es6-template-l
 
 ![ES6 Banner image](/assets/blog/ES6.jpg)
 This is the fifth post in the ES6 101 series and we will be looking at **template literals** today. Template literals are also sometimes know as **string interpolation**. Before we proceed to dive into our topic today, if you want to look into any of the other topics we have covered so far, then here is a quick reference.
-1. [ES6 Fat Arrow Functions](https://shreerangpatwardhan.blogspot.com/2017/10/es6-fat-arrow-functions.html)
-2. [ES6 Lexical Declarations Let](https://shreerangpatwardhan.blogspot.com/2017/10/es6-101-lexical-declarations-let.html)
-3. [ES6 Lexical Declarations Const](https://shreerangpatwardhan.blogspot.com/2017/10/es6-101-lexical-declarations-const.html)
-4. [ES6 Spread Operator](https://shreerangpatwardhan.blogspot.com/2017/10/es6-101-spread-operator.html)
+1. [ES6 Fat Arrow Functions](https://theuidev.github.io/es6-fat-arrow-functions/)
+2. [ES6 Lexical Declarations Let](https://theuidev.github.io/es6-101-lexical-declarations-let/)
+3. [ES6 Lexical Declarations Const](https://theuidev.github.io/es6-101-lexical-declarations-const/)
+4. [ES6 Spread Operator](https://theuidev.github.io/es6-101-spread-operator/)
 
 If you are currently working with some HTML templating libraries like Handlebars or Mustache, you are aware of how you can bind data values in your HTML using syntax like ```{{data.value}}```. String literals work very similar in that way. Let's look at a simple example and then get into the details from there on.
 

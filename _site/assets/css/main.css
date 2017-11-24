@@ -878,7 +878,7 @@ body {
 }
 .post-item .content .description .post-dp {
   width: 50%;
-  margin: 0 auto 10px;
+  margin: 0 auto 1.225rem;
   display: block;
 }
 @media only screen and (max-width: 37.5rem) {

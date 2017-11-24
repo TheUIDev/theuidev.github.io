@@ -80,8 +80,8 @@ So, as you might have gathered by now, the spread operator ```...``` allows you 
 Hope you now have an understanding of how the spread operator works. Go ahead and figure out the specific use cases in which you can make use of the spread operator in your code base and make your code ES6 compliant!
 
 In case you want to look at other posts in the ES6 101 series, here are the links for your quick reference.
-1. [ES6 Fat Arrow Functions](https://shreerangpatwardhan.blogspot.com/2017/10/es6-fat-arrow-functions.html)
-2. [ES6 Lexical Declarations Let](https://shreerangpatwardhan.blogspot.com/2017/10/es6-101-lexical-declarations-let.html)
-3. [ES6 Lexical Declarations Const](https://shreerangpatwardhan.blogspot.com/2017/10/es6-101-lexical-declarations-const.html)
+1. [ES6 Fat Arrow Functions](https://theuidev.github.io/es6-fat-arrow-functions/)
+2. [ES6 Lexical Declarations Let](https://theuidev.github.io/es6-101-lexical-declarations-let/)
+3. [ES6 Lexical Declarations Const](https://theuidev.github.io/es6-101-lexical-declarations-const/)
 
 Hope you enjoy the series and let me know what you think of the posts so far! Until next post! &#128588;

@@ -17,7 +17,7 @@ blogger_orig_url: http://shreerangpatwardhan.blogspot.com/2017/10/es6-101-lexica
 ---
 
 ![ES6 Banner image](/assets/blog/ES6.jpg)
-This is the second post in the **ES6** series and we will be covering a lexical declaration - **'Let'** today. Before this we have looked into the [ES6 Fat Arrow Functions](https://shreerangpatwardhan.blogspot.com/2017/10/es6-fat-arrow-functions.html). We looked at the syntax changes from ES5 to ES6, how ```return``` is implicit and how ```this``` works with the new Arrow syntax.
+This is the second post in the **ES6** series and we will be covering a lexical declaration - **'Let'** today. Before this we have looked into the [ES6 Fat Arrow Functions](https://theuidev.github.io/es6-fat-arrow-functions/). We looked at the syntax changes from ES5 to ES6, how ```return``` is implicit and how ```this``` works with the new Arrow syntax.
 
 Let's now look at what ```let``` is. Simply put, ```let``` is the new ```var```. Then what is the difference you ask! well, let's look at right now. Whenever you see ```let``` in your code base, you should now consider the following thing.
 

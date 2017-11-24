@@ -17,7 +17,7 @@ blogger_orig_url: http://shreerangpatwardhan.blogspot.com/2017/10/es6-101-lexica
 ---
 
 ![ES6 Banner image](/assets/blog/ES6.jpg)
-This is the third post in the ES6 101 Series and we will be looking at the ES6 lexical declartions keyword ```const```. This is more of a continuation of the post on ```let```, so I would highly recommend you to read [that](https://shreerangpatwardhan.blogspot.com/2017/10/es6-101-lexical-declarations-let.html) before you move forward. In case you feel like looking at ```const``` that too works! Go ahead and keep reading.
+This is the third post in the ES6 101 Series and we will be looking at the ES6 lexical declartions keyword ```const```. This is more of a continuation of the post on ```let```, so I would highly recommend you to read [that](https://theuidev.github.io/es6-101-lexical-declarations-let/) before you move forward. In case you feel like looking at ```const``` that too works! Go ahead and keep reading.
 
 As we saw in the post yesterday, variables created with the ```let``` keyword have **limited** scope and they live within the block, statement or the expression that they have been declared in. You **cannot** redeclare the ```let``` variables but these variables are **mutable**, i.e. theirs values can be changed and updated.
 

@@ -111,10 +111,10 @@ The way in which you can exclude some values from an array, you can also be sele
 And this concludes our post on ES6 destructuring. To reacp - destructuring actually does what it says. It helps you destructure the values of an array or an object into individual, separate variables which can be used independently. Again, I cannot stress enough on my assumption that these ES6 features should bring in more performance improvements on the code level, and more would come on that in a later post. I have already made a note for myself to do a post on ES6 performance.
 
 Until next time, you can browse through the list of ES6 features that we have covered so far. As usual, let me know of any issues you come across in the post. Have fun! ES6 rocks! &#128526;
-1. [Fat Arrow Functions](https://shreerangpatwardhan.blogspot.com/2017/10/es6-fat-arrow-functions.html)
-2. [Lexical Declarations - Let](https://shreerangpatwardhan.blogspot.com/2017/10/es6-101-lexical-declarations-let.html)
-3. [Lexical Declarations - Const](https://shreerangpatwardhan.blogspot.com/2017/10/es6-101-lexical-declarations-const.html)
-4. [Spread OPerator](https://shreerangpatwardhan.blogspot.com/2017/10/es6-101-spread-operator.html)
-5. [Template Literal](https://shreerangpatwardhan.blogspot.com/2017/10/es6-template-literals.html)
-6. [Rest Operator](https://shreerangpatwardhan.blogspot.com/2017/10/es6-rest-operator.html)
-7. [Default parameters](https://shreerangpatwardhan.blogspot.com/2017/10/es6-101-default-parameters.html)
+1. [Fat Arrow Functions](https://theuidev.github.io/es6-fat-arrow-functions/)
+2. [Lexical Declarations - Let](https://theuidev.github.io/es6-101-lexical-declarations-let/)
+3. [Lexical Declarations - Const](https://theuidev.github.io/es6-101-lexical-declarations-const/)
+4. [Spread Operator](https://theuidev.github.io/es6-101-spread-operator/)
+5. [Template Literal](https://theuidev.github.io/es6-template-literals/)
+6. [Rest Operator](https://theuidev.github.io/es6-rest-operator/)
+7. [Default parameters](https://theuidev.github.io/es6-101-default-parameters/)

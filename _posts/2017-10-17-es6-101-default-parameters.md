@@ -65,9 +65,9 @@ append(2); // New array is: 2
 This goes to show that the ```array b``` is initialized to an empty array every single time the function is invoked. Just make sure you keep this mind when implementing **Default parameters** in your code.
 
 This significantly reduces the code, and must be resulting in pretty good performance improvements. I haven't run any tests so far, but I am thinking that I should do a post of performance improvements when using the ES6 features. &#128520; That's for another time though. Until then, enjoy this post and let me know in case you catch any errors with the post. In case you are interested in learning other ES6 features, here's a list of the articles covered in the ES6 series so far. &#128588;
-1. [Fat Arrow Functions](https://shreerangpatwardhan.blogspot.com/2017/10/es6-fat-arrow-functions.html)
-2. [Lexical Declarations - Let](https://shreerangpatwardhan.blogspot.com/2017/10/es6-101-lexical-declarations-let.html)
-3. [Lexical Declarations - Const](https://shreerangpatwardhan.blogspot.com/2017/10/es6-101-lexical-declarations-const.html)
-4. [Spread OPerator](https://shreerangpatwardhan.blogspot.com/2017/10/es6-101-spread-operator.html)
-5. [Template Literal](https://shreerangpatwardhan.blogspot.com/2017/10/es6-template-literals.html)
-6. [Rest Operator](https://shreerangpatwardhan.blogspot.com/2017/10/es6-rest-operator.html)
+1. [Fat Arrow Functions](https://theuidev.github.io/es6-fat-arrow-functions/)
+2. [Lexical Declarations - Let](https://theuidev.github.io/es6-101-lexical-declarations-let/)
+3. [Lexical Declarations - Const](https://theuidev.github.io/es6-101-lexical-declarations-const/)
+4. [Spread Operator](https://theuidev.github.io/es6-101-spread-operator/)
+5. [Template Literal](https://theuidev.github.io/es6-template-literals/)
+6. [Rest Operator](https://theuidev.github.io/es6-rest-operator/)
