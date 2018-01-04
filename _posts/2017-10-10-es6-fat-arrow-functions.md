@@ -29,22 +29,22 @@ So have now decided to start learning something everyday and post it. Share my l
 I am going to start with the **Arrow Functions** or as they are very commonly referred to as **Fat Arrow Functions**. Whenever someone refers to a Fat Arrow function there are 3 things that should be considered right away!
 
 1. Syntax
-    The **=>** syntax is a short hand syntax for the original function expression. It effectively converts
-    ```javascript
-        function (arguments) {
-            expression
-        }
-    ```
-    to basically
-    ```javascript
-        (argumnets) => {expression}
-    ```
-
+The **=>** syntax is a short hand syntax for the original function expression. It effectively converts
+```javascript
+function (arguments) {
+  expression
+}
+```
+to basically
+```javascript
+  (argumnets) => {expression}
+```
 2. Implicit ```return```
-    If an expression is being used after an arrow, the return is implicit, so no return is required. Again we will look at anm example soon.
-
+<br />
+If an expression is being used after an arrow, the return is implicit, so no return is required. Again we will look at an example soon.
 3. The context of ```this ```
-    This is probably the most important offering of the Fat Arrow Functions. ```this ``` is now **lexically** bound to the function. We will look at this in some more detail in the example that follow.
+<br />
+This is probably the most important offering of the Fat Arrow Functions. ```this ``` is now **lexically** bound to the function. We will look at this in some more detail in the example that follow.
 
 # Fat Arrow Function Examples
 ### 1. Fat Arrow Syntax example
@@ -71,7 +71,7 @@ now will become,
 Pretty simple eh!? Yeah right! Now makes me wonder, why I wasn't using this until now! But now I will be writing all my simple functions in this short hand format.
 
 ### 2. Implicit ```return```
-Think of all the utility functions that you woud have in your code base that ```retun``` some value to its caller. Now you can get rid of all those ```return``` statements, because the fat arrow functions have an implicit retun value. Let's look at this is action below.
+Think of all the utility functions that you would have in your code base that ```return``` some value to its caller. Now you can get rid of all those ```return``` statements, because the fat arrow functions have an implicit return value. Let's look at this is action below.
 ```javascript
     function multiple(a,b) {
         return a*b;
@@ -138,8 +138,8 @@ user.clickHandler();
 
 In ES5, ```bind()``` or ```var that = this;``` are necessary as functions create their own ```this```. We need to store the parent ```this``` in a variable that can be referenced in the callback or take care of binding ourselves. However, in ES6, Arrows instead bind ```this``` to the immediate enclosing lexical scope. Much better, right! These arrow functions seem so much more natural.
 
-This concludes this blog post of ES6 Arrow functions or the Fat Arrow functions. Make sure you start using it right away! YOu don't have to go to your code base and start converting functions immediately, but atleast start using this new syntax for all the new functions that you will write from here on.
+This concludes this blog post of ES6 Arrow functions or the Fat Arrow functions. Make sure you start using it right away! Y0u don't have to go to your code base and start converting functions immediately, but at least start using this new syntax for all the new functions that you will write from here on.
 
-I know I am joining the band wagon really late and definitely am not one of the early addopters, but there definitely would be atlest one person I would be able to help with this post apart from the future me! &#128512;
+I know I am joining the band wagon really late and definitely am not one of the early adopters, but there definitely would be at lest one person I would be able to help with this post apart from the future me! &#128512;
 
 Stay tuned for more posts on ES6 and things that I will keep learning. For those who have followed this blog of mine, from it's early days, you will see a lot more posts! Until next time - have fun with the fat arrow functions!

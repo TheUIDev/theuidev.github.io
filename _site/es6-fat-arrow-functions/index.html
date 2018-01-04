@@ -150,21 +150,21 @@ I attended a 2 day <strong>ReactJs 101 Training</strong> last week. Yes! towards
 
 <ol>
   <li>Syntax
- The <strong>=&gt;</strong> syntax is a short hand syntax for the original function expression. It effectively converts
-    <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>     <span class="kd">function</span> <span class="p">(</span><span class="kr">arguments</span><span class="p">)</span> <span class="p">{</span>
-         <span class="nx">expression</span>
-     <span class="p">}</span>
+The <strong>=&gt;</strong> syntax is a short hand syntax for the original function expression. It effectively converts
+    <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="p">(</span><span class="kr">arguments</span><span class="p">)</span> <span class="p">{</span>
+  <span class="nx">expression</span>
+<span class="p">}</span>
 </code></pre></div>    </div>
     <p>to basically</p>
-    <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>     <span class="p">(</span><span class="nx">argumnets</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span><span class="nx">expression</span><span class="p">}</span>
+    <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="p">(</span><span class="nx">argumnets</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span><span class="nx">expression</span><span class="p">}</span>
 </code></pre></div>    </div>
   </li>
-  <li>
-    <p>Implicit <code class="highlighter-rouge">return</code>
- If an expression is being used after an arrow, the return is implicit, so no return is required. Again we will look at anm example soon.</p>
-  </li>
+  <li>Implicit <code class="highlighter-rouge">return</code>
+<br />
+If an expression is being used after an arrow, the return is implicit, so no return is required. Again we will look at an example soon.</li>
   <li>The context of <code class="highlighter-rouge">this</code>
- This is probably the most important offering of the Fat Arrow Functions. <code class="highlighter-rouge">this</code> is now <strong>lexically</strong> bound to the function. We will look at this in some more detail in the example that follow.</li>
+<br />
+This is probably the most important offering of the Fat Arrow Functions. <code class="highlighter-rouge">this</code> is now <strong>lexically</strong> bound to the function. We will look at this in some more detail in the example that follow.</li>
 </ol>
 
 <h1 id="fat-arrow-function-examples">Fat Arrow Function Examples</h1>
@@ -190,7 +190,7 @@ I attended a 2 day <strong>ReactJs 101 Training</strong> last week. Yes! towards
 <p>Pretty simple eh!? Yeah right! Now makes me wonder, why I wasn’t using this until now! But now I will be writing all my simple functions in this short hand format.</p>
 
 <h3 id="2-implicit-return">2. Implicit <code class="highlighter-rouge">return</code></h3>
-<p>Think of all the utility functions that you woud have in your code base that <code class="highlighter-rouge">retun</code> some value to its caller. Now you can get rid of all those <code class="highlighter-rouge">return</code> statements, because the fat arrow functions have an implicit retun value. Let’s look at this is action below.</p>
+<p>Think of all the utility functions that you would have in your code base that <code class="highlighter-rouge">return</code> some value to its caller. Now you can get rid of all those <code class="highlighter-rouge">return</code> statements, because the fat arrow functions have an implicit return value. Let’s look at this is action below.</p>
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    <span class="kd">function</span> <span class="nx">multiple</span><span class="p">(</span><span class="nx">a</span><span class="p">,</span><span class="nx">b</span><span class="p">)</span> <span class="p">{</span>
         <span class="k">return</span> <span class="nx">a</span><span class="o">*</span><span class="nx">b</span><span class="p">;</span>
     <span class="p">}</span>
@@ -252,9 +252,9 @@ I attended a 2 day <strong>ReactJs 101 Training</strong> last week. Yes! towards
 
 <p>In ES5, <code class="highlighter-rouge">bind()</code> or <code class="highlighter-rouge">var that = this;</code> are necessary as functions create their own <code class="highlighter-rouge">this</code>. We need to store the parent <code class="highlighter-rouge">this</code> in a variable that can be referenced in the callback or take care of binding ourselves. However, in ES6, Arrows instead bind <code class="highlighter-rouge">this</code> to the immediate enclosing lexical scope. Much better, right! These arrow functions seem so much more natural.</p>
 
-<p>This concludes this blog post of ES6 Arrow functions or the Fat Arrow functions. Make sure you start using it right away! YOu don’t have to go to your code base and start converting functions immediately, but atleast start using this new syntax for all the new functions that you will write from here on.</p>
+<p>This concludes this blog post of ES6 Arrow functions or the Fat Arrow functions. Make sure you start using it right away! Y0u don’t have to go to your code base and start converting functions immediately, but at least start using this new syntax for all the new functions that you will write from here on.</p>
 
-<p>I know I am joining the band wagon really late and definitely am not one of the early addopters, but there definitely would be atlest one person I would be able to help with this post apart from the future me! 😀</p>
+<p>I know I am joining the band wagon really late and definitely am not one of the early adopters, but there definitely would be at lest one person I would be able to help with this post apart from the future me! 😀</p>
 
 <p>Stay tuned for more posts on ES6 and things that I will keep learning. For those who have followed this blog of mine, from it’s early days, you will see a lot more posts! Until next time - have fun with the fat arrow functions!</p>
 

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Cross browser CSS solution for custom List Icon</title>
+    <title>Moving on 😢 - Life after jQuery Mobile</title>
     <meta name="description" content="Playing catch up with the latest in the field of UI">
 
     <!-- Google Authorship Markup -->
@@ -14,15 +14,15 @@
     <!-- Social: Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@shreerangp">
-    <meta name="twitter:title" content="Cross browser CSS solution for custom List Icon">
+    <meta name="twitter:title" content="Moving on 😢 - Life after jQuery Mobile">
     <meta name="twitter:description" content="Playing catch up with the latest in the field of UI">
     
     <meta property="twitter:image:src" content="http://localhost:4000/assets/img/blog-image.png">
     
 
     <!-- Social: Facebook / Open Graph -->
-    <meta property="og:url" content="http://localhost:4000/list-item-image-marker-cross-browser/">
-    <meta property="og:title" content="Cross browser CSS solution for custom List Icon">
+    <meta property="og:url" content="http://localhost:4000/move-on-from-jqm/">
+    <meta property="og:title" content="Moving on 😢 - Life after jQuery Mobile">
     
     <meta property="og:image" content="http://localhost:4000/assets/img/blog-image.png">
     
@@ -30,7 +30,7 @@
     <meta property="og:site_name" content="The UI Dev">
 
     <!-- Social: Google+ / Schema.org  -->
-    <meta itemprop="name" content="Cross browser CSS solution for custom List Icon"/>
+    <meta itemprop="name" content="Moving on 😢 - Life after jQuery Mobile"/>
     <meta itemprop="description" content="Playing catch up with the latest in the field of UI">
     <meta itemprop="image" content="http://localhost:4000/assets/img/blog-image.png"/>
 
@@ -57,7 +57,7 @@
     <meta name="theme-color" content="#0562DC">
 
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="http://localhost:4000/list-item-image-marker-cross-browser/">
+    <link rel="canonical" href="http://localhost:4000/move-on-from-jqm/">
     <link rel="alternate" type="application/rss+xml" title="The UI Dev" href="http://localhost:4000/feed.xml" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109437352-1"></script>
@@ -76,9 +76,9 @@
     <header class="header-post" role="banner">
   <div class="content">
     
-      <time itemprop="datePublished" datetime="2014-05-21 03:05:00 -0700" class="date">21 May 2014</time>
+      <time itemprop="datePublished" datetime="2018-01-03 00:00:00 -0800" class="date">03 Jan 2018</time>
     
-    <h1 class="post-title" itemprop="name">Cross browser CSS solution for custom List Icon</h1>
+    <h1 class="post-title" itemprop="name">Moving on 😢 - Life after jQuery Mobile</h1>
     <p itemprop="description" class="subtitle"></p>
   </div>
   <a class="down" data-scroll href="#scroll"><svg class="icon icon-angle-down"><use xlink:href="#icon-angle-down"></use></svg></a>
@@ -136,28 +136,53 @@
 
     <section class="post" itemscope itemtype="http://schema.org/BlogPosting">
       <article role="article" id="scroll" class="post-content" itemprop="articleBody">
-        <p>Styling the list item markers is required on so many instances. There are so many readily available list styles like - square, circle, lower-alpha, roman and many more. Even after having a wide range of list styles, we are often faced with the challenge of using a custom list style. This is when we tend to use an icon image for the list items.</p>
+        <p>jQuery Mobile continues to be popular even today, though the development of the library itself seems to have come to a stand-still. According to the stats from <a href="https://trends.builtwith.com/javascript/jQuery-Mobile">BuiltWith</a>, about 130K sites are still using jQuery Mobile which also includes about 1.4% of the total top 10K sites.
+<img src="/assets/blog/BuiltWith_jqm_data.png" alt="BuiltWith Data Graph" />
+Also if you look at the number of questions tagged with “jquery-mobile” on StackOverflow, the following graph clearly shows that the number is constantly increasing. This proves beyond doubt that jQuery Mobile framework is still popularly being used.
+<img src="/assets/blog/StackOverFlow_jqm_data.png" alt="StackOverflow Data Graph" />
+There has been only one alpha release in the past 2 years, but 1.4.5 still continues to be the stable release. 🤷🏻‍♂️ In 1.5.0-alpha too, jQuery Mobile has brought in components from jQuery UI, making the library even more sluggish. 🚶 In the mean time however, other frameworks have gone way ahead with their components and performance in general, leaving jQuery Mobile far behind in the race. 🏃💨 jQuery Mobile has been the daddy of all these Mobile frameworks, but looks like the stronger, leaner and faster kids are beating the oldie at it’s own game. 😞</p>
 
-<p>With CSS adding a custom image icon for list style is easily possible using the following code.</p>
+<p>So, the million dollar question - “Is jQuery Mobile dead?” Well, technically no. The development is still happening, but at a very slow pace. Even if a stable 1.5.0 is released in 2018, it still would not be as fast, performant and feature-rich as the new frameworks, considering it’s integration with the jQuery UI widgets. This is like 2 dead technologies have been married off to each other. It’s a super scary episode of “The Walking Dead” .</p>
 
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nx">list</span><span class="o">-</span><span class="nx">style</span><span class="o">-</span><span class="nx">image</span><span class="p">:</span> <span class="nx">url</span><span class="p">(</span><span class="s1">'icon.png'</span><span class="p">);</span>
-</code></pre></div></div>
+<p>I think it’s time to sunset jQuery Mobile 🥀🌇 and migrate your websites to the newer, better frameworks 🌅 which we will discuss today. Though my heart breaks to say this, but the fact cannot be denied. 💔</p>
 
-<p><img src="/assets/blog/Custom_List.png" alt="Custom list style" /></p>
+<p>With a heavy heart, but in order to look out for our future, let’s look at 3 awesome new (not so much) mobile frameworks that can replace jQuery Mobile.</p>
+<ol>
+  <li><a href="http://framework7.io/">Framework 7</a> (Top Pick)</li>
+  <li><a href="https://onsen.io/">OnsenUI</a></li>
+  <li><a href="https://ionicframework.com/">Ionic</a></li>
+</ol>
 
-<p>However, this is not as simple as it appears. The above code doesn’t display the output in the same way in all the browsers. IE7 and Opera will display the image marker a little bit higher than Firefox, Chrome and Safari. Our dear QA friends, will pounce on this and log an issue. QA 1 up! Now what? The developers have to find a solution to this and most will end up with a dirty hack. To avoid this, and be 1 up on our QA friends, here is a cross browser solution that works!</p>
+<p>Before we jump into the details of each of these, all of these mobile framework support and are pre-dominantly used for developing hybrid mobile applications. However, these can absolutely be used to build, static HTML websites as well as with popular frameworks like React, Vue, Angular and the likes. So now let’s see how each of these stack up against jQuery Mobile.</p>
 
-<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">.</span><span class="nx">custom</span><span class="o">-</span><span class="nx">list</span><span class="p">{</span>
-  <span class="nl">background</span><span class="p">:</span> <span class="nx">url</span><span class="p">(</span><span class="s1">'/route/to/list/icon.png'</span><span class="p">)</span> <span class="nx">no</span><span class="o">-</span><span class="nx">repeat</span> <span class="nx">left</span> <span class="mi">1</span><span class="nx">px</span><span class="p">;</span> <span class="c1">// This is the most important property in this class</span>
-  <span class="nx">padding</span><span class="o">-</span><span class="nx">left</span><span class="p">:</span> <span class="mi">18</span><span class="nx">px</span><span class="p">;</span>
-  <span class="nl">display</span><span class="p">:</span> <span class="nx">block</span><span class="p">;</span>
-  <span class="nl">height</span><span class="p">:</span> <span class="mi">22</span><span class="nx">px</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div></div>
+<h2 id="framework-7-">Framework 7 👍🏻</h2>
+<p>The official website for Framework 7 says the following.</p>
 
-<p>You will add this class on every list item. The background is the most important CSS property here. Others are based on the size of the image icon being used. This will give a truely cross-browser implementation a custom list icon using CSS.</p>
+<blockquote>
+  <p>Framework7 - is a free and open source mobile HTML framework to develop hybrid mobile apps or web apps with iOS &amp; Android native look and feel.</p>
+</blockquote>
 
-<p>Hope this small bit of code proves useful to all of you. If this post has helped you, leave a comment or show your love by liking the <a href="https://www.facebook.com/SpatialUnlimited">Spatial Unlimited</a> Facebook page. Till next time; happy coding!</p>
+<ol>
+  <li>The most important thing to notice here is that Framework 7 provides native iOS and Android look and feel “out-of-the-box” 😀</li>
+  <li>This framework is completely <strong>library agnostic</strong>. Meaning, the developer need not have expertise with Vue, React, Angular or anything else, except the fact that he needs to know HTML, CSS and Javascript.</li>
+  <li>Having stated the above #, it does support Vue, React and Angular integrations.</li>
+  <li>All the native animations are supported.</li>
+  <li>It is extremely fast.</li>
+  <li>Several ready-to-use UI components.</li>
+  <li>Short learning curve and so you can quickly start migrating from jQuery Mobile to Framework 7.
+You can see all the features live in action with <a href="http://framework7.io/kitchen-sink/?theme=ios">iOS look &amp; feel</a> and also with <a href="http://framework7.io/kitchen-sink/?theme=md">Material Design look &amp; feel</a></li>
+</ol>
+
+<h2 id="onsenui">OnsenUI</h2>
+<p>OnsenUI will be my 2nd pick after Framework 7. OnsenUI v1 requires you to have understanding of AngularJs. However, OnsenUI v2 is the real prize. OnsenUI v2 is <strong>library agnostic</strong> like Framework 7 and again is feature-rich and comes with several ready to use UI components.
+You can see all the features live in action with <a href="https://onsenui.github.io/vue-onsenui-kitchensink/main.html?platform=ios&amp;iphonex">iOS look &amp; feel</a> and also with <a href="https://onsenui.github.io/vue-onsenui-kitchensink/main.html?platform=android">Material Design look &amp; feel</a></p>
+
+<h2 id="ionic-framework">Ionic Framework</h2>
+<p>Ionic framework is extremely popular and gained this popularity in the last 3 years! This however is <strong>not</strong> library agnostic and is tightly coupled with Anuglar Js 1 and/or 2. So if you are planning on using Angular or are already using it with your existing jQuery Mobile application, then Ionic should be your pick. It truly is fast and smooth and has several <a href="https://ionicframework.com/docs/components">UI components</a> provided out of the box.</p>
+
+<p>Armed with these 3 powerful choices, and jQuery Mobile not seeming to be getting any better in the future, it’s high time you sunset your jQuery Mobile sites and migrate to a better and faster framework.</p>
+
+<p>Let me know what your take is on the whole jQuery Mobile situation and what you will be migrating too! Drop in your comments or let’s talk about it on <a href="https://twitter.com/shreerangp">Twitter</a>.</p>
 
       </article>
       <div class="post-ads">
@@ -176,15 +201,15 @@
 
       <section class="share">
   <h3>Share</h3>
-  <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://localhost:4000/list-item-image-marker-cross-browser/%20via%20&#64;shreerangp&hashtags=cross browser solution to using an image as a list item marker,using image as a list item marker,custom list item marker,"
+  <a aria-label="Share on Twitter" href="https://twitter.com/intent/tweet?text=&quot;&quot;%20http://localhost:4000/move-on-from-jqm/%20via%20&#64;shreerangp&hashtags=jQuery Mobile,jQuery Mobile is dead,Ratchet,Framework 7,Ionic,OnsenUI,jQuery Mobile substitutes,Is jQuery Mobile dead,"
 onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;" title="Share on Twitter">
     <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
   </a>
-  <a aria-label="Share on Facebook"href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/list-item-image-marker-cross-browser/"
+  <a aria-label="Share on Facebook"href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/move-on-from-jqm/"
   onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;" title="Share on Facebook">
     <svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg>
   </a>
-  <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://localhost:4000/list-item-image-marker-cross-browser/"
+  <a aria-label="Share on Google Plus" href="https://plus.google.com/share?url=http://localhost:4000/move-on-from-jqm/"
   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;" title="Share on Google+">
     <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
   </a>
@@ -213,7 +238,7 @@ onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return 
     disqus_loaded = true;
     var disqus_shortname = 'https-theuidev-github-io';
     var disqus_title = '';
-    var disqus_url = '/list-item-image-marker-cross-browser/';
+    var disqus_url = '/move-on-from-jqm/';
     var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
     dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);

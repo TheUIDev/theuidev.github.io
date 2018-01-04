@@ -1,6 +1,14 @@
 [
   
     {
+      "title"    : "Moving on 😢 - Life after jQuery Mobile",
+      "category" : "",
+      "tags"     : "jQuery Mobile, jQuery Mobile is dead, Ratchet, Framework 7, Ionic, OnsenUI, jQuery Mobile substitutes, and Is jQuery Mobile dead",
+      "url"      : "/move-on-from-jqm/",
+      "date"     : "03 Jan 2018"
+    } ,
+  
+    {
       "title"    : "ES6 101 - Class",
       "category" : "",
       "tags"     : "ES6 101, ES6, ES6 Class, ES6 basics, and ES6 prototype",
@@ -225,7 +233,7 @@
     } ,
   
     {
-      "title"    : "List item image marker - A cross browser solution",
+      "title"    : "Cross browser CSS solution for custom List Icon",
       "category" : "",
       "tags"     : "cross browser solution to using an image as a list item marker, using image as a list item marker, and custom list item marker",
       "url"      : "/list-item-image-marker-cross-browser/",

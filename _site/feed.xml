@@ -5,9 +5,35 @@
     <description>Playing catch up with the latest in the field of UI</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 24 Nov 2017 13:11:31 -0800</pubDate>
-    <lastBuildDate>Fri, 24 Nov 2017 13:11:31 -0800</lastBuildDate>
+    <pubDate>Wed, 03 Jan 2018 17:40:23 -0800</pubDate>
+    <lastBuildDate>Wed, 03 Jan 2018 17:40:23 -0800</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
+    
+      <item>
+        <title>Moving on 😢 - Life after jQuery Mobile</title>
+        <description>&lt;p&gt;jQuery Mobile continues to be popular even today, though the development of the library itself seems to have come to a stand-still. According to the stats from &lt;a href=&quot;https://trends.builtwith.com/javascript/jQuery-Mobile&quot;&gt;BuiltWith&lt;/a&gt;, about 130K sites are still using jQuery Mobile which also includes about 1.4% of the total top 10K sites. &lt;img src=&quot;/assets/blog/BuiltWith_jqm_data.png&quot; alt=&quot;BuiltWith Data Graph&quot; /&gt; Also if you look at the number of questions tagged with “jquery-mobile” on StackOverflow, the following graph clearly shows that the number is constantly increasing. This proves beyond doubt that jQuery Mobile framework is still popularly being used. &lt;img src=&quot;/assets/blog/StackOverFlow_jqm_data.png&quot; alt=&quot;StackOverflow Data Graph&quot; /&gt; There has...</description>
+        <pubDate>Wed, 03 Jan 2018 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/move-on-from-jqm/</link>
+        <guid isPermaLink="true">http://localhost:4000/move-on-from-jqm/</guid>
+        
+        <category>jQuery Mobile</category>
+        
+        <category>jQuery Mobile is dead</category>
+        
+        <category>Ratchet</category>
+        
+        <category>Framework 7</category>
+        
+        <category>Ionic</category>
+        
+        <category>OnsenUI</category>
+        
+        <category>jQuery Mobile substitutes</category>
+        
+        <category>Is jQuery Mobile dead</category>
+        
+        
+      </item>
     
       <item>
         <title>ES6 101 - Class</title>
@@ -209,24 +235,6 @@ We are already on the brink of the new year and the festival of lights is alread
         <category>ES6 basics</category>
         
         <category>ES6 string interpolation</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>ES6 101 - Spread operator</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/blog/ES6.jpg&quot; alt=&quot;ES6 Banner image&quot; /&gt; Welcome to the fourth post in the ES6 101 series and the topic of discussion today is the &lt;strong&gt;Spread operator&lt;/strong&gt; or the &lt;strong&gt;dot dot dot operator&lt;/strong&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;...&lt;/code&gt;. It is not very common to call it the “dot dot dot” operator, but I just kind of like the ring to it! Also when you say “dot dot dot” it actually helps me visualize unpacking multiple gifts from a gift box. Wondering why I am taking about gifts and gift boxes and “dot dot dot”. Well, the &lt;strong&gt;spread operator&lt;/strong&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;...&lt;/code&gt; is actually more like...</description>
-        <pubDate>Wed, 11 Oct 2017 20:16:00 -0700</pubDate>
-        <link>http://localhost:4000/es6-101-spread-operator/</link>
-        <guid isPermaLink="true">http://localhost:4000/es6-101-spread-operator/</guid>
-        
-        <category>ES6 101</category>
-        
-        <category>ES6</category>
-        
-        <category>ES6 basics</category>
-        
-        <category>ES6 spread operator. ES6 ...</category>
         
         
       </item>
