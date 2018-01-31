@@ -63,10 +63,10 @@ if [[ "${1}" == "-p" || "${1}" == "--publish" ]]; then
 fi
 
 # Set your blog URL
-BLOG_URL="your_site"
+BLOG_URL="https://theuidev.github.io"
 
 # Set your assets URL
-ASSETS_URL="assets/img/"
+ASSETS_URL="assets/blog/The_UI_Dev_Default.png"
 # ----------------------------------------------------------------
 
 
@@ -133,11 +133,10 @@ echo "---"
 echo "layout: post"
 echo "title: \"${POST_TITLE}\""
 echo "date: ${CURRENT_DATE} ${TIME}"
-echo "image: '/assets/img/'"
-echo "description:"
-echo "tags:"
-echo "categories:"
-echo "twitter_text:"
+echo "author: Shreerang Patwardhan"
+echo "tags: "
+echo "thumbnail: 'assets/blog/The_UI_Dev_Default.png'"
+echo "dp: 'assets/blog/The_UI_Dev_Default.png'"
 echo "---"
 
 }

@@ -33,7 +33,7 @@ layout: default
       </div>
     </div>
   </article>
-  {% assign loopindex = forloop.index | modulo: 2 %}
+  {% assign loopindex = forloop.index | modulo: 5 %}
   {% if loopindex == 0 %}
     {% include ads.html %}
   {% endif %}
