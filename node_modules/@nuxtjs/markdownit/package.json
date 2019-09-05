@@ -1,0 +1,16 @@
+{
+  "name": "@nuxtjs/markdownit",
+  "version": "1.2.3",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "https://github.com/nuxt/modules",
+  "homepage": "https://github.com/nuxt/modules/tree/master/modules/markdownit",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@nuxtjs/markdownit-loader": "^1.1.1",
+    "raw-loader": "^1.0.0"
+  },
+  "gitHead": "292d3f9e1020a97f62f104ff5521c15249817897"
+}
